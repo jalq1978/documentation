@@ -1,43 +1,34 @@
-# [Random block](http://localhost:3000/#/blocks/random-block?id=random-block)
+# Random Block
 
-## [What you will learn](http://localhost:3000/#/blocks/random-block?id=what-you-will-learn)
+## What You'll Learn
 
 - What Random blocks are
 - How and when to use Random blocks
 - How to not get duplicates using the Random block
 
-**Video tutorial**
 
-**What is the Random block?**
+## What is the Random block?
 
 The random block allows you to randomize where the user is taken in your flow.
 
 You can setup multiple paths and when the Random block is activated, the user will head down a random path. The Random block does not say anything to the user and will simply choose a random path.
 
-![img](https://i.imgur.com/7wIzFc8.png)
+![Imgur](https://imgur.com/g5FJzva.png)
 
+Above, the user would be sent to a random option of the 3 available paths.
 
+## Adding random options
 
-Above, the user would be sent to a random option of the 2 available paths.
+To add random options, click 'add random option'. 
 
-**Adding random options**
+![Imgur](https://i.imgur.com/iX34fup.png)
 
-To add random paths for your random block, click ‘Add Path’.
+To remove a path, click the 'remove path' button. If all the paths are not connected to an option, there is a chance that the random option will hit an option without a connection, and end the skill as result.
 
-![img](https://i.imgur.com/jagV70X.png)
+## No duplicates - don't go down the same path twice
 
-To remove a path, click the ‘Remove path’ button. If all the paths are not connected to an option, there is a chance that the random option will hit an option without a connection, and end the skill as result.
+The no duplicates option makes the user not go down the same path twice if the same random block is activated multiple times. 
 
-**No duplicates - don’t go down the same path twice**
-
-The no duplicates option makes the user not go down the same path twice if the same random block is activated multiple times.
-
-![img](https://i.imgur.com/jsp7LlZ.png)
+![img](https://i.imgur.com/YG8T61X.png)
 
 For example, if there are 3 random options, the no duplicates option will not activate the same path twice in a row until all of the options have been taken. Once all the options have been hit, the Random block will reset.
-
-
-
-
-
-
