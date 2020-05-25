@@ -1,4 +1,4 @@
-<H1> Getting started </h1>
+<h1> Getting started </h1>
 
 This documentation is your Voiceflow reference manual. No matter how experienced you are or what you want to achieve, it should cover everything you need to know — from navigating the interface, to making the most of different features.
 
