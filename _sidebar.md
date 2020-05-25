@@ -48,6 +48,7 @@
 **FAQ**
   - [How Voiceflow works](/faq/how-voiceflow-works.md)
   - [Locales](/faq/locales.md)
+  - [Invocation and Activation](/faq/invocation-and-activation.md)
   - [Legal](#)
     - [Voiceflow Terms of Service](/faq/legal/voiceflow-terms-of-service.md)
     - [Voiceflow Privacy Policy](/faq/legal/voiceflow-privacy-policy.md)
