@@ -2,6 +2,25 @@
 
 Everything new in Voiceflow, all in one place.
 
+# **April 14th, 2020 Release**
+
+## **Canvas Design Experience:** 
+
+We want to empower our users to understand the context and direction of their work as best they can. With this goal in mind, we implemented an improved design process and meaningful block visuals that showcase the contents of your conversations directly on the canvas. This makes it easier to see and manage different branches of conversation from a bird's eye view.  With our latest release, spend less time searching for content and more time scaling your projects. You can also expect plenty of UX improvements, a revamped toolbar and better modal accessibility. All of these changes represent a big step towards a faster, more comprehensive design process in our tool. ***To view a more comprehensive run-down of these changes,** [**view our changlog here**](https://www.notion.so/voiceflow/Voiceflow-Changelog-8bd07e4c1e4f45d8ac119938c5b5b172)**.** 
+
+## Our goals for this release are:
+
+1. **Let your canvas tell the story of your conversation**  - editor content now viewable on the canvas
+2. **Increase speed and organization** - simplifying the use of combined blocks with a new merging system, allowing for custom color coding & faster linking
+3. **Bake in conversational best practices** - allow you to represent your project as 'turn cards'
+4. **Design a system that can be used across all current and future channels** - ensure our system scales across conversational channels beyond Alexa and Google
+
+## Why these changes?
+
+Although our canvas is great for visualizing the flow of your voice experience, it lacks context when it comes to individual blocks. Previously, a block's information was housed in its accompanying editor, which meant a user had to click open each modal in order to access that information. This also limited the use of Voiceflow as a tool for stakeholder feedback. With the absence of contextual cues on the canvas, it was difficult for stakeholders to understand and evaluate projects at a high-level - especially when viewing them at a glance. 
+
+
+
 # **February 4th, 2020 Release** 
 
 **Important Functional Changes:**
