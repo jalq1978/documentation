@@ -3,15 +3,28 @@
 - how to use the Reminder Block in conjunction with the User Info and Permission Blocks.
 - how to set the reminder in 3 ways: Timer, Scheduled for one-time-only, Scheduled for reccuring.
 
+
+![img](https://i.imgur.com/HNj0CXD.gif)
+
 ## Check user's permission to set reminders
+
 
 To start you will need the **User Info Block** to check if the user has authorized reminders permission for your skill. Then, choose **Reminders** from User Info Type.
 
-![Imgur](https://i.imgur.com/KdTGO8U.png)
+
+![img](https://i.imgur.com/AVElTsT.png)
+
 
 On the User Info's **No Access port**, which means the user has not granted reminders permission yet, link a **Speak block** to explain why you're using the **Reminder block** in your skill and to give the user more informations on how to authorize the skill in the **Alexa app** or on [**alexa.amazon.com**](http://alexa.amazon.com/)
 
 ![Imgur](https://i.imgur.com/WblXrnc.png)
+
+
+![img](https://i.imgur.com/jHj9Zl8.png)
+
+In the following example, I'm using the **reminder_text** variable as the reminder text in the **Reminder block** and I've set the reminder time to notify the user in **one minute**. As for the text, you can also use variables for the Hours, Minutes and Seconds fields.
+
+![img](https://i.imgur.com/0MV3OZR.png)
 
 Add the **Permission block** just after the **Speak block** to end this path. Then, select **reminders** for Permissions Request.
 
@@ -26,6 +39,7 @@ You can then link the **Reminder block** on the remaining port of the **User Inf
 In the following example, I'm using the **reminder_text** variable as the reminder text in the **Reminder block** and I've set the reminder time to notify the user in **one minute**. As for the text, you can also use variables for the Hours, Minutes and Seconds fields.
 
 ![Imgur](https://i.imgur.com/qDGxrhd.png)
+
 
 After **uploading** your skill to **Alexa**, like your future users, you must allow access to the reminder from the **Alexa app** or [alexa.amazon.com](http://alexa.amazon.com/).
 
@@ -83,7 +97,8 @@ Voiceflow also lets you set up automatic reminders to let you send recurring rem
 
 In order to set a reminder to run everyday at a specified time, choose **Daily** and fill in time (in the screenshot below, it is set to 12:00 PM). You don't need to fill in date.
 
-![Imgur](https://i.imgur.com/jtA6sOt.png)
+![img](https://i.imgur.com/trl5QpW.png)
+
 
 Then, set your reminder message and you are good to go with daily recurring messages!
 
@@ -91,4 +106,5 @@ Then, set your reminder message and you are good to go with daily recurring mess
 
 In order to set a reminder to occur weekly, select the **Weekly** and the day you would like your reminder to occur on. In the below screenshot, a reminder is scheduled for every Monday at 12:00 PM Eastern Standard time.
 
-![Imgur](https://i.imgur.com/PO7zW4E.png)
+
+![img](https://i.imgur.com/9JB0Uls.png)

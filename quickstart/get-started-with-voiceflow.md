@@ -1,29 +1,52 @@
-# Get started with Voiceflow
+# Getting started with Voiceflow
 
-Simple steps to get on your feet and building amazing voice apps.
+## Voiceflow overview
 
-## **What is Voiceflow?**
+Voiceflow is a platform for designers, developers and teams to design, prototype, and build Alexa Skills and Google Actions without coding. It's used for two primary usecases:
 
-Voiceflow is your central platform for designing, prototyping, and building voice apps. Voiceflow doesn't require code, but don't be fooled - Voiceflow is an incredibly powerful tool meant for professionals.
+1. Design and prototype: used for the design, prototyping, and user testing of Alexa Skills & Google Actions
+2. Build and publish: used for the design, prototype, and eventual publishing directly to the Alexa/Google app stores
 
-Voiceflow is used by 10,000+ designers and developers to create amazing voice interface designs, and functional voice app prototypes. With Voiceflow, you can export your prototype's code to make your developer's life easier - or - you can publish directly to Alexa and Google Assistant through Voiceflow.
+<H2> Voiceflow quickstart tutorial series</H2>
 
-## **Who uses Voiceflow?**
+<h3>Ep. #1 - Basic blocks</h3>
 
-**VUI Designers** use Voiceflow to design and prototype voice user interfaces quickly and easily. 
+- Intro to Voiceflow
+- Speak step
+- Prototyping in browser
+- Choice step
 
-**Developers** use Voiceflow to quickly prototype their ideas and implement a simple VUI
+<iframe width="560" height="500" src="https://www.youtube.com/embed/SQub8t86ZII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Entrepreneurs and Hobbyists** use Voiceflow to create voice apps without coding quickly and easily
+<h3>Ep. #2 - Prototyping in the browser</h3>
 
-## **Setting up an account - yes it's free**
+- Debug mode
+- Prototyping in the browser
+- Sharable prototype URLs
 
-You can setup your Voiceflow account easily at [https://voiceflow.com](https://www.voiceflow.com/) - and it's entirely free. Voiceflow is free to get started on, use, and even publish your own voice apps. 
+<iframe width="560" height="500" src="https://www.youtube.com/embed/w2x2RbgpI3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## **Communities to join**
+<h3>Ep. #3 - Uploading to and testing on Alexa devices</h3>
 
-Join the close-knit [Voiceflow Community](https://www.facebook.com/groups/voiceflowgroup/) to learn about what others are building and get help from fellow users.
+- Setting up our Alexa Developer Console
+- Uploading to Alexa
+- Testing on Alexa and in the Developer Console
 
-## **Tutorial series to watch**
+<iframe width="560" height="500" src="https://www.youtube.com/embed/qdQ0ciR6ioA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Voiceflow has produced over 50 tutorial videos you can watch to learn more about the platform. Have a look around our [channel](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ)!
+<h3>Ep. #4 - Uploading to and testing on Google Assistant and Dialogflow</h3>
+
+- Setting up our Actions Developer Console and Dialogflow account
+- Uploading to Google Assistant and Dialogflow
+- Testing on Google Assistant and Dialogflow
+
+<iframe width="560" height="500" src="https://www.youtube.com/embed/OG4FcDu5FRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>Ep. #5 - The choice block and intro to intents, utterances and slots</h3>
+
+- Full explanation of the choice block
+- Introduction to intents, utterances and slots
+
+<iframe width="560" height="500" src="https://www.youtube.com/embed/vuEmXn-lGK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Videos added here on a regular basis. For the most up-to-date tutorials, check out our YouTube channel: https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ
