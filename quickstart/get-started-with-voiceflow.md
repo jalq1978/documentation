@@ -7,9 +7,9 @@ Voiceflow is a platform for designers, developers and teams to design, prototype
 1. Design and prototype: used for the design, prototyping, and user testing of Alexa Skills & Google Actions
 2. Build and publish: used for the design, prototype, and eventual publishing directly to the Alexa/Google app stores
 
-<H2> Voiceflow quickstart tutorial series</H2>
+## Voiceflow quickstart tutorial series
 
-<h3>Ep. #1 - Basic blocks</h3>
+### Ep. #1 - Basic blocks
 
 - Intro to Voiceflow
 - Speak step
@@ -18,7 +18,7 @@ Voiceflow is a platform for designers, developers and teams to design, prototype
 
 <iframe width="560" height="500" src="https://www.youtube.com/embed/SQub8t86ZII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h3>Ep. #2 - Prototyping in the browser</h3>
+### Ep. #2 - Prototyping in the browser
 
 - Debug mode
 - Prototyping in the browser
@@ -26,7 +26,7 @@ Voiceflow is a platform for designers, developers and teams to design, prototype
 
 <iframe width="560" height="500" src="https://www.youtube.com/embed/w2x2RbgpI3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h3>Ep. #3 - Uploading to and testing on Alexa devices</h3>
+### Ep. #3 - Uploading to and testing on Alexa devices
 
 - Setting up our Alexa Developer Console
 - Uploading to Alexa
@@ -34,7 +34,7 @@ Voiceflow is a platform for designers, developers and teams to design, prototype
 
 <iframe width="560" height="500" src="https://www.youtube.com/embed/qdQ0ciR6ioA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h3>Ep. #4 - Uploading to and testing on Google Assistant and Dialogflow</h3>
+### Ep. #4 - Uploading to and testing on Google Assistant and Dialogflow
 
 - Setting up our Actions Developer Console and Dialogflow account
 - Uploading to Google Assistant and Dialogflow
@@ -42,7 +42,7 @@ Voiceflow is a platform for designers, developers and teams to design, prototype
 
 <iframe width="560" height="500" src="https://www.youtube.com/embed/OG4FcDu5FRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h3>Ep. #5 - The choice block and intro to intents, utterances and slots</h3>
+### Ep. #5 - The choice block and intro to intents, utterances and slots
 
 - Full explanation of the choice block
 - Introduction to intents, utterances and slots
