@@ -1,66 +1,23 @@
-# Voiceflow Guide Home 🏠
+<H1> Getting started </h1>
 
-Voiceflow (VF) is the central platform for designing, prototyping, and building voice apps.
+<p><b>This documentation is your Voiceflow reference manual. No matter how experienced you are or what you want to achieve, it should cover everything you need to know — from navigating the interface, to making the most of different features.</b></p>
 
-![img](https://gblobscdn.gitbook.com/assets%2F-LgK_X2m6IAIYcINBjCj%2F-Lgt3VZWI6nebuw_tHaz%2F-Lgt4_IW12ONrl_MGgMD%2FGroup%203.png?alt=media&token=0a30fce7-cfa8-41b2-853d-9e92dc9ea452)
+<p>If you’re an absolute beginner looking for some help getting started, or a Voiceflow veteran looking for in-depth guides on things like best practice or collaboration, we’ve listed all of the documentation on the left bar, and some general resources for you below.</p>
 
-Everything you want to know about Voiceflow - in one place.
+<h2>Up-to-date tutorial videos</h2>
 
-# **Voiceflow Quickstart** 🏁
+<h3>Episode 1: Learning the basics </h3>
 
-Learn more about Voiceflow, from its features and functionality to best use cases.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SQub8t86ZII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Get started with Voiceflow](/quickstart/get-started-with-voiceflow.md)
+[Find the next video of this series, and over 50 other videos on our YouTube Channel here.](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ)
 
-- What is Voiceflow?
-- Who should use Voiceflow?
-- How does Voiceflow work?
-
-# **Voiceflow Tutorials and Walkthroughs 💡**
-
-Dive right into designing and building with the help of fast and easy Voiceflow tutorials.
-
-[Beginner video series/tutorials](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ/)
-
-- Full video walkthroughs
-- Easy to follow tutorials
-- Helpful tips and tricks
-
-# **Voiceflow Documentation 📝**
-
-Learn about specific Voiceflow features and functionality. Best for professional designers and developers.
-
-- Full feature documentation
-- Integrations and blocks overview
-- In-depth feature guides
-
-# **VF Feature Releases 🚀**
-
-Learn about new features releases and our upcoming feature roadmap.
-
-[New releases 🔥](/releases/releases)
-
-# **Voiceflow Community Resources ℹ️**
+<H2>Voiceflow Official Community Resources</h2>
 
 Get help from other Voiceflow community members and users through our community channels.
 
-- [YouTube Tutorials](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ/)
-- [Voiceflow University](https://learn.voiceflow.com/en/)
-- [Voiceflow Facebook Community](https://www.facebook.com/groups/voiceflowgroup/)
-- [Voiceflow Slack Community](https://join.slack.com/t/voicefirst-workspace/shared_invite/enQtNjUzMDgxNDk5MjY4LWFlMzBlNzRmZGIzNDBmZmFiMmJiYjE1NTk1YmE5MWViZWZlZGQ3YmI1ZjVlZDJhYzRjNTY2MzYzNjNlYTc0MzE)
-- [Voiceflow Forums](https://forum.voiceflow.com/)
-
-[//]: # (# **Frequently Asked Questions ❓**)
-
-[//]: # (- Pricing)
-[//]: # (- Migration)
-[//]: # (- Security)
-
-# **Voiceflow Social Channels ✉️**
-
-- [Voiceflow Facebook Community](https://www.facebook.com/groups/voiceflowgroup/)
-- [Voiceflow Slack Community](https://join.slack.com/t/voicefirst-workspace/shared_invite/enQtNjUzMDgxNDk5MjY4LWFlMzBlNzRmZGIzNDBmZmFiMmJiYjE1NTk1YmE5MWViZWZlZGQ3YmI1ZjVlZDJhYzRjNTY2MzYzNjNlYTc0MzE)
-- [Voiceflow Forums](https://forum.voiceflow.com/)
-- [Voiceflow YouTube Channel](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ/)
-- [Voiceflow LinkedIn](https://www.linkedin.com/company/voiceflowhq/)
-- [Voiceflow Blog](https://www.voiceflow.com/blog)
+- [YouTube Channel](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ)
+- [Blog](https://voiceflow.com/blog)
+- [Events](https://voiceflow.com/events)
+- [Voiceflow User Community Facebook Group](https://www.facebook.com/groups/voiceflowgroup/)
+- [Forum](https://forum.voiceflow.com)
