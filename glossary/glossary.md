@@ -18,7 +18,7 @@ A credential that represents the end user (resource owner) in another system. A 
 
 **Account Linking**
 
-An Alexa Skills Kit feature that lets you connect the identity of the end user with an account in another system. For example, a Car Hailer custom skill for ordering a ride needs to access the Car Hailer service as a specific user. Similarly, a smart home skill for controlling a light needs to connect the Alexa user with an account in the device cloud. 
+An Alexa Skill Kit feature that lets you connect the identity of the end user with an account in another system. For example, a Car Hailer custom skill for ordering a ride needs to access the Car Hailer service as a specific user. Similarly, a smart home skill for controlling a light needs to connect the Alexa user with an account in the device cloud. 
 [(source)](https://www.voiceflow.com/glossary/account-linking ':alt="Vocieflow"')
 <br><br>
 
