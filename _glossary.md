@@ -289,10 +289,6 @@ This can be anything the user says. For example, if the user said "order me a la
 On an Alexa-enabled device with a screen or a display, the viewport is the area of the display that the user can see.
 [(source)](https://www.voiceflow.com/glossary/viewport ':alt="Vocieflow"')
 
-### Voiceflow
-Voiceflow (VF) is the central platform for designing, prototyping, and building voice apps.
-[(source)](https://www.voiceflow.com)
-
 ### Voice Prompt
 A recorded message that is played by interactive voice response (IVR) systems, message-on-hold systems and other voice processing tools. The goal of the prompt is to guide the user towards their destination — like if they want to see the funds in their savings account or find out the amount they owe on their last credit card statement.
 [(source)](https://www.voiceflow.com/glossary/voice-prompt ':alt="Vocieflow"')
