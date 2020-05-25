@@ -53,5 +53,8 @@
     - [Voiceflow Terms of Service](/faq/legal/voiceflow-terms-of-service.md)
     - [Voiceflow Privacy Policy](/faq/legal/voiceflow-privacy-policy.md)
 
+**GLOSSARY**
+  - [Glossary](/glossary/glossary.md)
+
 **RELEASES**
   - [New releases 🔥](/releases/releases.md)
