@@ -1,6 +1,6 @@
-# Getting started with Voiceflow
+## Getting started
 
-## Voiceflow overview
+### Voiceflow overview
 
 Voiceflow is a platform for designers, developers and teams to design, prototype, and build Alexa Skills and Google Actions without coding. It's used for two primary usecases:
 
