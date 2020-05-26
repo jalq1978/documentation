@@ -54,6 +54,7 @@
 - [What are Alexa skills and Google actions?](/tutorials/what-are-alexa-skills.md)
 - [Alexa skill retention](/tutorials/alexa-skill-retention.md)
 - [Alexa Skill Certification Checklist](/tutorials/alexa-skill-certification-checklist.md) 
+- [Invocation and Activation](/faq/invocation-and-activation.md)
 
 **Release notes**
   - [New releases 🔥](/releases/releases.md)

@@ -1,8 +1,8 @@
 <h1> Getting started </h1>
 
-<p><b>This documentation is your Voiceflow reference manual. No matter how experienced you are or what you want to achieve, it should cover everything you need to know — from navigating the interface, to making the most of different features.</b></p>
+This documentation is your Voiceflow reference manual. No matter how experienced you are or what you want to achieve, it should cover everything you need to know — from navigating the interface, to making the most of different features.
 
-<p>If you’re an absolute beginner looking for some help getting started, or a Voiceflow veteran looking for in-depth guides on things like best practice or collaboration, we’ve listed all of the documentation on the left bar, and some general resources for you below.</p>
+If you’re an absolute beginner looking for some help getting started, or a Voiceflow veteran looking for in-depth guides on things like best practice or collaboration, we’ve listed all of the documentation on the left bar, and some general resources for you below.
 
 <br>
 <h2>Voiceflow basics tutorial series</h2>
