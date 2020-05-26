@@ -4,31 +4,17 @@
   - [Downloadable Links](/quickstart/downloadable-links.md)
   - [Intents and Slots](/blocks/intents-slots.md)
   - [Migrating a live skill](/quickstart/migrating.md)
-   
+    
 **Steps overview** 
   - [Home step](/blocks/start-block.md)
-  - [Interaction steps](#)  
-      - [Speak step](/blocks/speak-block.md)
-      - [Choice step](/blocks/choice-block.md)
-      - [Intent step](/blocks/intent-block.md)
-  - [Logic steps](#) 
-      - [If block](/blocks/if-block.md)     
-      - [Set block](/blocks/set-block.md)
-      - [Capture block](/blocks/capture-block.md)
-      - [Random block](/blocks/random-block.md)
-      - [Exit block](/blocks/exit-block.md)
-      - [Flow block](/blocks/flow-block.md)
-  - [Integration steps](#) 
-      - [API block](/blocks/api-block.md)
-      - [Google Sheets block](/blocks/google-sheets-block.md)
-      - [Code block](/blocks/code-block.md)
-  - [Platform steps](#)
-      - [Alexa platform steps](#)
-          - [Stream block](/blocks/stream-block.md)
-          - [User Info block](/blocks/user-info-block.md)
-          - [Reminder block](/blocks/reminder-block.md)
-          - [Card block](/blocks/card-block.md)
-      - [Google platform steps](#)
+  - [Interaction steps](/blocks/interaction-steps.md)
+  - [Logic steps](/blocks/logic-steps.md)
+  - [Platform steps (Alexa)](/blocks/platform-steps-alexa.md)
+  - [Platform steps (Google)](/blocks/platform-steps-google.md)
+      
+**Concepts**
+
+**Features**      
 
 **Monetization** 
   - [In-skill-purchases (ISP)](/monetization/alexa-in-skill-purchases.md)
