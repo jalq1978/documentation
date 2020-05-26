@@ -1,5 +1,3 @@
-- [Home](/#/home.md)
-
 **Learn the basics**
   - [The canvas](/quickstart/get-started-with-voiceflow.md)
   - [Testable Links](/quickstart/testable-links.md)
