@@ -2,7 +2,7 @@
 
 A guide on how to link your project to Google Actions and Dialogflow
 
-## **1. Creating an Account on Google Actions**
+### **1. Creating an Account on Google Actions**
 
 - Create an account on Google Actions (if you haven't already).
 - You must create this account to link your project to Google Actions and Dialogflow.
@@ -13,7 +13,7 @@ Visit the [Google Actions Homepage](https://developers.google.com/actions/).
 
 ![img](https://cdn.zappy.app/9e8b5980d5f13849954fb297b395d2c4.png)
 
-## **2. Creating a New Google Actions Project**
+### **2. Creating a New Google Actions Project**
 
 - You can think of a Google Actions project as the Google equivalent of an Alexa skill.
 - However, on the *Google Assistant platform*, for *every unique skill you wish to publish*, you must *create a new project on the Google Actions console*.
@@ -41,7 +41,7 @@ A pop-up will appear. Enter a Project Name and click [Create Project].
 
 - Your Google Assistant project is now created! We'll attach a Dialogflow agent to it in the next section.
 
-## **3. Creating a New Dialogflow Agent**
+### **3. Creating a New Dialogflow Agent**
 
 - Dialogflow, another Google service, is used as Google Assistant's NLU engine.
 - It receives your choices, intents, and slots (called "entities" in Dialogflow) and creates a language model that will be used in your skill.
