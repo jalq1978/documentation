@@ -1,16 +1,20 @@
-# Alexa Skill Certification Checklist
+# Alexa Skill Certification
 
 Get help with submitting your Alexa skills successfully to the Alexa skill store.
 
-## **What You'll Learn 🧠**
+## **What You'll Learn**
 
 - Alexa's certification checklist
 - How the process works
 - How long certification typically takes
 
-# **REQUIRED: 5 Things You Need to Submit Your Skills**
+### **REQUIRED: 5 Things You Need to Submit Your Skills**
 
-✅ Functional Help & Stop intents ✅ Help intent with a question ✅ Functional skill with all outcomes and paths tested ✅ Proper, non-misleading Alexa store information for publishing ✅ Privacy Policy & Terms of service (optional unless Children's skill) 
+- ✅ Functional Help & Stop intents
+- ✅ Help intent with a question 
+- ✅ Functional skill with all outcomes and paths tested -
+- ✅ Proper, non-misleading Alexa store information for publishing 
+- ✅ Privacy Policy & Terms of service (optional unless Children's skill) 
 
 ## **1. HELP & STOP INTENTS**
 

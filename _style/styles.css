@@ -1,0 +1,56 @@
+:root {
+
+    /* Docs wide settings */
+    --theme-color   : #142144;
+    --content-max-width                 : 55em;
+
+    --heading-h1-font-weight            : 800 ;
+    --heading-h1-font-family            : 'Muli', sans-serif;
+    --heading-h1-color                     : #2A2B30;
+    --heading-h1-font-size              : 4rem;
+
+
+    --heading-h2-font-weight            : 800 ;
+    --heading-h2-font-family            : 'Muli', sans-serif;
+    --heading-h2-color                     : #2A2B30;
+    --heading-h2-font-size              : 1.75rem;
+
+
+    --base-background-color: #F9F9F9;
+    --base-color           : #2A2B30;
+    --base-font-family     : 'Muli', sans-serif;
+    --base-font-size       : 16px;
+    --base-font-weight     : normal;
+    --base-line-height     : 1.7;
+
+
+    --sidebar-width                               : 22rem;
+    --sidebar-name-font-family                    : 'Muli', sans-serif;
+
+    /* Nav Headings */
+    --sidebar-nav-strong-color                    : #2A2B30;
+    --sidebar-nav-strong-font-weight              : 10rem;
+    --sidebar-nav-strong-margin                   : 1.5em 0 0.5em;
+    --sidebar-nav-strong-padding                  : 0.25em 0;
+
+
+    /* Sidebar active state */
+
+    /* Sidebar toggle */
+    --sidebar-toggle-background                   : #027AFF;
+    --sidebar-toggle-icon-color                   : white;
+
+
+    --search-input-border-radius             : 5rem;
+    --search-input-margin                    : 0.5;
+    --search-input-border-width              : 2px;
+
+    --sidebar-name-margin                         : 1.5rem 0 0;
+    --sidebar-name-padding                        : -3rem;
+    --sidebar-name-text-align                     : center;
+    --sidebar-name-font-size                      : 0;
+
+
+
+
+}
