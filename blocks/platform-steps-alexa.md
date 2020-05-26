@@ -1,6 +1,6 @@
 # Platform steps (Alexa)
 
-## Stream Block
+## **Stream Block**
 
 ### What is the Stream block
 
@@ -51,7 +51,7 @@ When the user is in a Stream block and uses any of the pre-defined functions, th
 ![img](https://i.imgur.com/GowDurC.png)
 
 
-## User Info Block
+## **User Info Block**
 
 ### What is the User Info block?
 
@@ -201,7 +201,7 @@ In order to set a reminder to occur weekly, select the **Weekly** and the day yo
 
 ![img](https://i.imgur.com/9JB0Uls.png)
 
-## Card Block
+## **Card Block**
 
 
 ### What the Card Block Does
@@ -241,7 +241,7 @@ Standard cards will show up on the users Alexa app and look like the image below
 
 ![img](https://i.imgur.com/Yuxce9g.jpg)
 
-## Reminder block
+## **Reminder block**
 
 
 
@@ -303,8 +303,6 @@ And click on **MANAGE PERMISSIONS**
 **Enable** the Reminders and hit the **SAVE PERMISSIONS** button.
 
 ![img](https://downloads.intercomcdn.com/i/o/124666239/cb1fbbf7a6b8788b95edfe12/image.png)
-
-![img](https://downloads.intercomcdn.com/i/o/124666138/e7b858496a3b1bea0efe9736/Screen+Recording+2019-05-30+at+03.09+PM.gif)
 
 In another way, you can manage permission on your Alexa app. Permission Block will send a card to Alexa app, which leads the users to allow your skill to access to reminders. You can see a card in home screen of Alexa app or Activity menu.
 

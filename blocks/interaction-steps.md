@@ -1,6 +1,6 @@
 # Interaction steps
 
-## Speak Block
+## **Speak Block**
 
 ### Overview
 The Speak block allows you to output speech and audio for the user. With the Speak block, you can have your assistant talk to the user in a variety of voices, as well as play audio files.
@@ -66,7 +66,7 @@ To output different sounding speech, you may use SSML tags within you Speak bloc
 
 We have an in-depth tutorial on using SSML tags here.
 
-## Choice Block
+## **Choice Block**
 
 ### Related articles
 
@@ -117,7 +117,7 @@ You can use the ELSE on a Choice block as an "Error Handler". The Error Handler 
 <img src="https://i.imgur.com/riGC5jE.png" alt="img" style="zoom:80%;" />
 
 
-### **No Reply Response**
+### No Reply Response
 
 If Alexa fails to map whatever the user says to any intent defined in your skill, the No Reply Response occurs. For instance if the user says nothing, gibberish, or *words that aren't part of any intent*, it does not map to an intent. A reprompt needs to be defined with the last outgoing message and the Voiceflow service receives no information when a reprompt happens.
 
@@ -131,7 +131,7 @@ However, Voiceflow allows you to define custom No Reply Response if you don't wa
 
 No Reply Response only occur twice and will exit the skill if it still doesn't understand the third time.
 
-## Intent Block
+## **Intent Block**
 
 ### What Are Intent Blocks?
 

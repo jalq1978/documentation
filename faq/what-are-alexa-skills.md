@@ -1,4 +1,4 @@
-# What are Alexa skills and Google actions?
+## What are Alexa skills and Google actions?
 
 A quick crash course on Alexa skills (aka Amazon's voice apps).
 
