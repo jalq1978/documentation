@@ -1,6 +1,6 @@
 # Logic steps
 
-## If Block
+## **If Block**
 
 ### What is an IF block?
 
@@ -56,9 +56,9 @@ To add paths, hit the add If statement button and create a new condition to comp
 
 <img src="https://i.imgur.com/JXTm7SS.png" alt="img" style="zoom:50%;" />
 
-## Set block
+## **Set block**
 
-**About the Set block**
+### About the Set block
 
 The Set block is used to set and change the value of variables. You can set variable values to numbers, or words. 
 
@@ -66,7 +66,7 @@ The Set block can have its value set through entering a value, or performing an 
 
 
 
-**Using the Set block** 
+### Using the Set block
 
 Variables are automatically set to the value '0' on creation. When a Set block is activated, the variable it is setting will be changed.
 
@@ -80,7 +80,7 @@ Example 2 We multiply two user inputted numbers together to perform a multiplica
 
 ![img](https://i.imgur.com/qRiF6I2.png)
 
-**Setting multiple variables at once**
+### Setting multiple variables at once
 
 You can set multiple variables at once by clicking on the "add variable set" button.
 
@@ -88,7 +88,7 @@ You can set multiple variables at once by clicking on the "add variable set" but
 
 You can set as many variables as you'd like within a single Set block. Set blocks start from the top variable Set and work downwards. Meaning you can override previous variable sets within the same Set block.
 
-## Capture Block
+## **Capture Block**
 
 ### What the Capture Block Does
 
@@ -132,7 +132,7 @@ There are two types of input for this response:
 
 Similar to every other audio upload in Voiceflow, you can upload your own file or link to an audio file URL hosted on the internet from services like Dropbox or Google Drive.
 
-## Random Block
+## **Random Block**
 
 ### What is the Random block?
 
@@ -160,7 +160,7 @@ The no duplicates option makes the user not go down the same path twice if the s
 
 For example, if there are 3 random options, the no duplicates option will not activate the same path twice in a row until all of the options have been taken. Once all the options have been hit, the Random block will reset.
 
-## Exit Block
+## **Exit Block**
 
 ### What the Exit Block Does
 
@@ -181,7 +181,7 @@ To use the exit block, add it to the end of a flow and connect it to the last bl
 
 ![img](https://i.imgur.com/KHpO49I.png)
 
-## Flow Block
+## **Flow Block**
 
 ### What are flows?
 
@@ -219,19 +219,19 @@ There are three settings for each flow block:
 
 
 
-\- ***\*Rename:\**** change the name of your flow
+- **Rename:** change the name of your flow
 
-\- ***\*Duplicate:\**** duplicate the flow
+- **Duplicate:** duplicate the flow
 
-\- ***\*Delete:\**** delete the flow
+- **Delete:** delete the flow
 
 
 
-1. ***\*Editing flow names\**** You can edit every flow name except for the ROOT. When you do this, you cannot rename a flow to a name that is already taken. 
+1. **Editing flow names** You can edit every flow name except for the ROOT. When you do this, you cannot rename a flow to a name that is already taken. 
 
-2. ***\*Copying flows\**** When copying flows you will copy just the single flow. For example, if you are copying a flow that has a flow within it, you will only be able to copy one layer at a time. Doing so will produce an exact duplicate of the flow you had copied.
+2. **Copying flows** When copying flows you will copy just the single flow. For example, if you are copying a flow that has a flow within it, you will only be able to copy one layer at a time. Doing so will produce an exact duplicate of the flow you had copied.
 
-3. ***\*Deleting a flow\**** When you delete a flow you are deleting it permanently. It is highly recommended you do not delete flows unless you 100% are sure of doing so.
+3. **Deleting a flow** When you delete a flow you are deleting it permanently. It is highly recommended you do not delete flows unless you 100% are sure of doing so.
 
 
 
@@ -245,7 +245,7 @@ There are three settings for each flow block:
 
 The Flows menu has a list of flows as well as a search bar at the bottom that allows you to search through your flows.
 
-***\*Reusing flows\****
+**Reusing flows**
 
 
 
@@ -285,7 +285,7 @@ Once you create the flow, you will see your new flow active on the left flow bar
 
 
 
-![img](https://i.imgur.com/9AKANpZ.png)****
+![img](https://i.imgur.com/9AKANpZ.png)
 
 ![img](https://i.imgur.com/E8dBXgn.png)
 
@@ -309,13 +309,13 @@ Each flow block, except the ROOT flow, can have input, and output variables. Flo
 
 
 
-\- ***\*Input variables:\**** local variables being passed into that flow from the flow above it in the flow tree diagram
+- **Input variables:** local variables being passed into that flow from the flow above it in the flow tree diagram
 
-\- ***\*Output variables:\**** local variables that are passed out of the flow diagram, back into the flow above it in the tree diagram. 
+- **Output variables:** local variables that are passed out of the flow diagram, back into the flow above it in the tree diagram. 
 
-## Code Block
+## **Code Block**
 
-### Code Block Overview**
+### Code Block Overview
 
 The code block accepts a popular programming language known as **JavaScript**. If you don't know how to code, that's alright! Thankfully, there's lots of resources we can use to integrate this block into our skill's logic. 
 
@@ -326,7 +326,7 @@ The code block accepts a popular programming language known as **JavaScript**. I
 - [W3Schools](https://www.w3schools.com/js/) - good for learning JS syntax and supported functions
 - [Stack Overflow](https://stackoverflow.com/) - good for finding answers to specific questions (must specify that you're using JS in your search).
 
-### Beginner's Example**
+### Beginner's Example
 
 To store a random number from 0 - 100 in the {random_num} variable put this in your Code block:
 
@@ -342,7 +342,7 @@ Declare 'random_num' as a variable on Voiceflow. Connect the Code block to a Spe
 
 I copied this code from [here](https://www.w3schools.com/js/js_random.asp). Easy stuff, right? 
 
-### **Advanced Example**
+### Advanced Example
 
 To get the current date in (yyyy/mm/dd) format put this in your code block:
 
