@@ -1,8 +1,9 @@
-# Deleting Projects in Google Actions Console
+# Deleting Google Actions
+### Deleting Projects in Google Actions Console
 
 Learn how to unlink your Dialogflow agent and delete your Google projects off of the Google Action Console
 
-# **Step 1 Unlinking your Dialogflow Agent**
+### **Step 1 Unlinking your Dialogflow Agent**
 
 Log into [Dialogflow](https://dialogflow.com/) and head into the console by clicking [Go to console]. Today we will be deleting the project 'Test Project'.
 
@@ -16,7 +17,7 @@ After deleting the agent, type 'DELETE' in the field, then hit [DELETE]
 
 ![img](https://gblobscdn.gitbook.com/assets%2F-LgK_X2m6IAIYcINBjCj%2F-Lk5mCqyMvnDxfRhn3jS%2F-Lk5uXxZ04TJg5bx-Fje%2Fimage.png?alt=media&token=199fa537-2e8c-4826-a7e8-e5e88cc72348)
 
-# **Step 2 Deleting your project in the Google Actions Console**
+### **Step 2 Deleting your project in the Google Actions Console**
 
 Please note that if you did not unlink your project's Dialogflow Agent, you will receive the following message. Follow the instructions from Step 1 and unlink the agent before deleting the project in Google.
 
