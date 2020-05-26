@@ -1,4 +1,4 @@
-# How Voiceflow manages cross-platform building.
+# Cross-platform building
 
 Learn how Voiceflow works with both Alexa and Google at the same time.
 
@@ -6,13 +6,13 @@ Voiceflow makes it easy to build Alexa Skills & Google Actions - at the same tim
 
 Here are the things you need to know when developing cross-platform for Alexa & Google:
 
-# **1. How to switch between Google & Alexa development**
+## **1. How to switch between Google & Alexa development**
 
 When inside a project, you can seamlessly switch between developing for Google and Alexa. To switch platform, flip the switch on the navigation bar:
 
 ![img](https://cdn.zappy.app/24f204fca00aab4a50fab9a05c581af6.png)
 
-# **2. What happens when you switch your development platform**
+## **2. What happens when you switch your development platform**
 
 Alexa and Google are similar platforms that still have many differences. Depending on the availability of a feature for each platform, you will have access to the blocks in the Platform section.
 
@@ -21,7 +21,7 @@ For example, the Purchase block is only available on Alexa currently. Below, whe
 ![img](https://cdn.zappy.app/b2cb146c81b84022fdcf936ddd904c00.png)
 
 
-# **3. The platform variable**
+## **3. The platform variable**
 
 The "platform variable" is the built-in variable that allows you to determine what platform the user is on when they activate your voice app.
 

@@ -1,15 +1,15 @@
-# Deploying Your Google Assistant Project to Production
+# Launching on Google
 
 Submitting your project for review and releasing on the Google Assistant platform.
 
-# **What You'll Learn 🧠**
+### **What You'll Learn 🧠**
 
 - How to deploy your Google Assistant project to the Google Actions platform.
 - How long you'll have to wait for Alpha, Beta, and Production results.
 
 Note: The steps in this article assume you already have a Voiceflow project linked to the Google Assistant platform. See [Uploading Your Project to Google Assistant](https://learn.voiceflow.com/en/articles/2705386-uploading-your-project-to-google-assistant) if you haven't already linked your project.
 
-# **Step 1 ➤ Fill in Your Project Directory Information**
+## **1. Fill in Your Project Directory Information**
 
 - Enter the 'Publish' tab on Voiceflow
 - Click on your project's Google ID in the drop-down, this will direct you to the Google Actions console
@@ -39,7 +39,7 @@ Note: The steps in this article assume you already have a Voiceflow project link
 
 ![img](https://gblobscdn.gitbook.com/assets%2Fcreator%2F-LgtXwphLAIhXpWOlaGs%2F-LgtYVSp31oOCemvmjGp%2F5.jpeg?generation=1560038738550438&alt=media)
 
-# **Step 2 ➤ Deploying to an Environment**
+## **2. Deploying to an Environment**
 
 - After filling out all the required fields, select the [Release] tab from the left menu.
 
@@ -59,7 +59,7 @@ Note: The steps in this article assume you already have a Voiceflow project link
 
 ![img](https://gblobscdn.gitbook.com/assets%2Fcreator%2F-LgtXwphLAIhXpWOlaGs%2F-LgtYVStEBMbErJII5-M%2F9.jpeg?generation=1560038738591614&alt=media)
 
-# **Step 3 ➤ Wait For Your Results**
+## **3. Wait For Your Results**
 
 - Google generally takes a few days to approve or deny a skill for deployment.
 - If you submitted your project to Alpha, a review will not be required and changes should be reflected within a few hours.
