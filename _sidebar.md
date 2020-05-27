@@ -25,12 +25,6 @@
   - [How Voiceflow manages cross-platform building](/adapting-for-google/how-voiceflow-manages-cross-platform-building.md)
   - [Deleting projects in Google Action Console](/adapting-for-google/deleting-projects-in-google-actions-console.md)
 
-**Tutorials**
-  - [Advanced Tutorials](#)
-    - [Check for a number](/tutorials/advanced-tutorials/checking-if-number.md)
-    - [Tracking user sessions](/tutorials/advanced-tutorials/tracking-user-sessions.md)
-    - [Beta testing your Skill](/tutorials/advanced-tutorials/using-beta-testing-with-your-alexa-skill.md)
-
 **FAQ**
 - [How Voiceflow works](/faq/how-voiceflow-works.md)
 - [Locales](/faq/locales.md)
@@ -39,6 +33,9 @@
 - [Alexa skill retention](/tutorials/alexa-skill-retention.md)
 - [Alexa Skill Certification Checklist](/tutorials/alexa-skill-certification-checklist.md) 
 - [Invocation and Activation](/faq/invocation-and-activation.md)
+- [Check for a number](/tutorials/advanced-tutorials/checking-if-number.md)
+- [Tracking user sessions](/tutorials/advanced-tutorials/tracking-user-sessions.md)
+- [Beta testing your Skill](/tutorials/advanced-tutorials/using-beta-testing-with-your-alexa-skill.md)
 
 **Release notes**
   - [New releases 🔥](/releases/releases.md)
