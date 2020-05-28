@@ -1,5 +1,8 @@
 # Interaction steps
 
+Last edited: May 28 2020
+Created by: braden@voiceflow.com
+
 ## Overview
 
 Interaction steps are the core Steps that create a conversational interaction between the user and the assistant. These are the conversational components that can be used to make the assistant speak, as well as listen and react to the user's intentions in a variety of ways.
@@ -8,9 +11,10 @@ Interaction steps are the core Steps that create a conversational interaction be
 
 ### Overview
 
-The Speak step allows the assistant to respond to the user and "speak" using either a text-to-speech voice or an audio file of a supported format. The Speak step can be found in the Interactions section of the Step menu.
+The Speak step allows the assistant to respond to the user and "speak" using either a text-to-speech voice or an audio file of a supported format. The Speak step can be found in the Interactions section of the Step menu. To add a Speak step to your project, click and drag one onto the canvas.
 
-<img src="https://i.imgur.com/eAXfWMP.png" alt="img" style="zoom:80%;" />
+<img src="/images/Interaction-steps/speak - click, drag and drop on canvas.png" alt="img" style="zoom:50%;" />
+
 
 ### Speak step features
 
@@ -18,68 +22,170 @@ The Speak step allows the assistant to respond to the user and "speak" using eit
 - Have the assistant speak
 - Play an audio file
 - Stream an audio file
-- Layer multiple responses
 - Supports multiple voices and accents
 - Use variables to create a dynamic conversation
 - Use SSML to customize the way the assistant speaks
 - Preview the way the assistant speaks
 - Randomize how the assistant responds
 
+### Add, delete, reorder speak sections for speech and audio
+
+#### Adding sections
+
+Inside the Speak step editor, you can click on either the "System" or "Audio" buttons to add either synthetic text to speech (example, Alexa voice), or you can add an audio section
+
+<img src="/images/Interaction-steps/add speechaudio section.png" alt="img" style="zoom:50%;" />
+
+#### Stacking multiple sections
+
+You can add multiple sections within a Speak step, either of System speech or Audio, in any order or length. These sections will playback sequentially from top-to-bottom for the user when the Speak step is activated. To add multiple sections, click on the System or Audio buttons repeatedly.
+
+<img src="/images/Interaction-steps/speak-sections.png" alt="img" style="zoom:50%;" />
+
+#### Deleting sections
+
+To delete a section within a Speak step, you can either right-click on the step icon, or, you can drag the section below to delete it. 
+
+1. Right click to delete
+
+   <img src="/images/Interaction-steps/speak-right click to delete.png" alt="img" style="zoom:50%;" />
+
+2. Drag down to delete
+
+<img src="/images/Interaction-steps/speak drag to delete.png" alt="img" style="zoom:50%;" />
 
 
+#### Reordering sections
 
+You can re-order the order in which your sections play (remember, they play sequentially down) by clicking and dragging on sections to reorder them.
 
+<img src="/images/Interaction-steps/speak-click and drag reorder.png" alt="img" style="zoom:50%;" />
 
+#### Collapsable sections
 
-### Making the assistant speak
+Sections in every step are collapsable to save space. You can collapse and expand sections by clicking on the arrow on the far right of each section.
 
-Within the Speak step editor, you can write text in the outlined box to control what the assistant says with a text-to-speech voice. 
+<img src="/images/Interaction-steps/speak - click to collapse.png" alt="img" style="zoom:50%;" />
 
-<img src="/images/Interaction-steps/speak with text.png"  alt="img"/>
+Once collapsed, the section's functionality is not changed and can still be reordered and deleted. To re-expand the section, click on the same arrow used to collapse the section.
+
+<img src="/images/Interaction-steps/speak - collapse section.png" alt="img" style="zoom:50%;" />
+
+#### Play a random section from the Speak step
+
+You can have your assistant play one random section from your Speak step instead of play all of the sections sequentially. To do this, click on the button near the section addition buttons and you'll see the option for randomizing sections. 
+
+<img src="/images/Interaction-steps/speak - click to random.png" alt="img" style="zoom:50%;" />
+
+Once turned on, you'll see an icon appear on each section indicating that random section is on. Only one section of all the available sections will randomly play when the step is activated. To turn random section output off, click on the randomize outputs button again and you should see the random output icons disappear from each section.
+
+<img src="/images/Interaction-steps/speak - random output on.png" alt="img" style="zoom:50%;" />
+
+### Making the assistant speak with system speech
+
+#### Adding system speech
+
+To add a system speech section, click on the icon to add system speech.
+
+<img src="/images/Interaction-steps/speak - click to add system speech.png" alt="img" style="zoom:50%;" />
+
+#### Adding system speech
+
+Adding a system speech section within your Speak step allows you to control what the assistant says to the user. You can add text into the speech field, and it will automatically expand as you write more.
+
+<img src="/images/Interaction-steps/speak - click to add speech.png" alt="img" style="zoom:50%;" />
+
+#### Changing the voice of the assistant
+
+You can change the voice of the assistant to one of the default voices provided by Voiceflow for each assistant platform. To change the selected voice for that particular Speak step, click on the voice dropdown and choose the selected voice.
+
+<img src="/images/Interaction-steps/speak - click for accents.png" alt="img" style="zoom:50%;" />
+
+#### Preview assistant responses
+
+You can preview the assistant's response (will play out-loud on your computer) by clicking on the "play" icon in the bottom left of your speech field next to your voice picker.
+
+<img src="/images/Interaction-steps/speak - click to preview response.png" alt="img" style="zoom:50%;" />
+
+#### Add SSML effects
+
+You can add SSML effects by highlighting a section of text within and then clicking the "add effect" dropdown in the bottom right of the editor. 
+
+<img src="/images/Interaction-steps/speak - add ssml.png" alt="img" style="zoom:50%;" />
+
+Once effects are added, you can layer multiple effects together to create highly personalized responses.
+
+<img src="/images/Interaction-steps/speak - showing ssml.png" alt="img" style="zoom:50%;" />
+
+You can edit implemented SSML effects by clicking on the "descriptor" of the affect which is surrounded by quotations. From here, you can edit the selected effect.
+
+<img src="/images/Interaction-steps/speak - click to change effect.png" alt="img" style="zoom:50%;" />
+
+You can re-add recently used effects without having to go through the menu system again by clicking and selecting from the clock icon.
+
+<img src="/images/Interaction-steps/speak - add recent effect.png" alt="img" style="zoom:50%;" />
+
+#### Using variables in the Speak step response
+
+You can use variables in your assistants speech response to add dynamic responses that change depending on the situation. As an example, below we have inputted a custom variable called "{name}" which stores the user's first name. This way, we are greeting them by first name to give a more custom response.
+
+<img src="/images/Interaction-steps/speak - using variable in response.png" alt="img" style="zoom:50%;" />
+
+To add a variable to a response, start by typing "{" which will open the variable selector menu. From here you can either create a new variable or select an existing variable to insert.
+
+<img src="/images/Interaction-steps/speak - open variable menu.png" alt="img" style="zoom:50%;" />
 
 ### Play an uploaded audio file
 
-Clicking on the "audio" button in the right hand side of the Speak step editor window will add a new section to the Speak step where an audio file will play. 
+Clicking on the "audio" button in the right hand side of the Speak step editor window will add a new section to the Speak step where an audio file can be uploaded or streamed.
 
-<img src="/images/Interaction-steps/add audio section.png"  alt="img"/>
+<img src="/images/Interaction-steps/speak - click to add audio.png" alt="img" style="zoom:50%;" />
 
 #### Uploading an audio file
 
 From here, you can either browse to upload, or drag-and-drop an audio file into the box. If you are uploading an audio file, it must be a supported length. Voiceflow will automatically convert uploaded audio files to the accepted bitrate of your chosen assistant platform.
 
+1. Click to browse files and upload
+
+   <img src="/images/Interaction-steps/speak - click to upload audio.png" alt="img" style="zoom:50%;" />
+
+   
+
+2. Drag-and-drop in audio files
+
+   <img src="/images/Interaction-steps/speak - drag and drop audio file.png" alt="img" style="zoom:50%;" />
+
+
+
 #### Supported audio filetypes
 
-- MP3 - less than 90 seconds
+- MP3 - less than 240 seconds (you cannot combine multiple files in a row to get around this). See "Alexa limitations" below.
 
 #### Previewing an audio file
 
 You can preview an audio file in the browser by clicking on the preview button. You can also preview different sections of the audio file by clicking on different parts of the box to scrub the file dynamically.
 
-<img src="/images/Interaction-steps/preview audio.png"  alt="img"/>
+<img src="/images/Interaction-steps/speak - click to preview audio.png" alt="img" style="zoom:50%;" />
 
-
+<img src="/images/Interaction-steps/speak - click to scrub audio.png" alt="img" style="zoom:50%;" />
 
 #### Deleting an uploaded audio file
 
 You can delete an uploaded audio file by clicking on the "X" icon in the top right corner of your uploaded file.
 
-<img src="/images/Interaction-steps/delete audio section.png"  alt="img"/>
-
-
+<img src="/images/Interaction-steps/speak - click to remove audio.png" alt="img" style="zoom:50%;" />
 
 ### Stream an audio file
 
 You can stream an audio file by clicking on the link icon in the top right once you have added your audio step. Unlike uploading an audio file, Voiceflow will not host this file so you will have to ensure it follows the proper bitrate of the assistant you are building for. 
 
-<img src="/images/Interaction-steps/stream audio.png"  alt="img"/>
-
-<img src="/images/Interaction-steps/stream audio link.png"  alt="img"/>
+<img src="/images/Interaction-steps/speak - click to add audio url link.png" alt="img" style="zoom:50%;" />
 
 Many popular hosting services can be used such as Dropbox, Airtable or S3. You need to enter the sharable link for the file, not the URL of the file. If the URL is correct, once you hit enter it will turn to a preview section similar to when you upload an audio file on Voiceflow. An example can be found below of a streamed audio file from Dropbox.
 
-<img src="/Users/bradenream-neal/Desktop/Screen Shot 2020-05-27 at 9.25.52 PM.png" style="zoom:50%;" />
+<img src="/images/Interaction-steps/speak - click to type url.png" alt="img" style="zoom:50%;" />
 
-
+## 
 
 #### Supported audio streaming filetypes
 
@@ -92,65 +198,12 @@ For those using Dropbox, it is very important you change the last digit of the U
 You need to change Dropbox links to https://www.dropbox.com/s/g5sdb27pri7x2eg/preview.mp3?dl=1 where the last digit in the sharable URL is a 1. This will allow for it to work in Voiceflow.
 
 
+### Alexa specific limitations for Speak step
 
+Files for the Speak step can only be up to 240 seconds if uploading to Alexa, and will be played at a reduced sound quality due to Alexa technical restrictions.
 
-
-
-
-
-
-With the Speak block, you may use several different voices - categorized by accent region. When you drag in and click on a Speak block, you can type in the text you would like to output, and then choose the voice you would like to be used.
-
-
-### Multiple Voices in One Speak Block
-
-Within one Speak block you can say several things in different voices. Below, you can see output in two sentences - each in a different voice by adding another section. 
-
-
-### Using Variables in the Speak Block
-
-You can use variables within your speak blocks to personalize the user's skill experience, or convey dynamic information such as the answer to a calculation, or an API response. 
-
-To use a variable in the Speak block, hit the right facing curly brace button '{' which will pop the drop-down list for available variables to use in your speak block. 
-
-
-You can use multiple variables in a single Speak block.
-
-### Playing Audio Files
-
-Using the Speak block you can have play short audio files for the user. To do this, within the Speak block hit "Audio".
-
-
-
-When you do this, you'll create a new section for an Audio file which will be played in order with your Speak block sequence, or at random if you have that option toggled. 
-Here, you can upload an audio file to be hosted on Voiceflow, or, you can link to a file you are hosting on your location. 
-
-Once you have added a file you will see the length of the file, and be able to preview the sound. You are able to traverse through your audio file by clicking on different parts of the audio player.
-
-<img src="https://i.imgur.com/prUJMzb.png" alt="img" style="zoom:50%;" />
-
-
-### Alexa specific limitations:
-
-Files for the Speak block can only be up to 240 seconds if uploading to Alexa, and will be played at a reduced sound quality due to Alexa technical restrictions.
-
-When using the speak block, if you were to use back to back blocks with audio uploaded, the audio time within them is added. This is because all blocks will process concurrently until the user is faced with user input (i.e. choice block, interaction block, etc.) The limit applies to the total, until there is user input, then this limit resets.
-For example: using two back to back speak blocks with 2 mins and 3 mins wouldn't work, because that would total five mins. But using speak/choice/speak would, because the time is 'reset' after user input.
-
-
-### Outputting Random Speech
-
-You can output a random 'section' from within your speak block. For example, if you were to have two different greetings, or two different sound effects, you can output a random one to play, rather than play all the sections in sequence as a normal Speak block does.
-
-To do this, hit the three dot button and select "Randomize Outputs". To reset to sequential outputting, hit the three dot button and select "Unrandomize Outputs".
-
-
-
-### Change the Vocalization of Your Text with SSML Tags
-
-To output different sounding speech, you may use SSML tags within you Speak block. SSML is a special format created to modify how voice assistants talk.
-
-We have an in-depth tutorial on using SSML tags here.
+When using the speak step, if you were to use back to back steps with audio uploaded, the audio time within them is added. This is because all steps will process concurrently until the user is faced with user input (i.e. choice step, interaction block, etc.) The limit applies to the total, until there is user input, then this limit resets.
+For example: using two back to back speak steps with 2 mins and 3 mins wouldn't work, because that would total five mins. But using speak/choice/speak would, because the time is 'reset' after user input.
 
 ## **Choice Block**
 
