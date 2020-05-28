@@ -6,13 +6,13 @@ Voiceflow makes it easy to build Alexa Skills & Google Actions - at the same tim
 
 Here are the things you need to know when developing cross-platform for Alexa & Google:
 
-### **1. How to switch between Google & Alexa development**
+### 1. How to switch between Google & Alexa development
 
 When inside a project, you can seamlessly switch between developing for Google and Alexa. To switch platform, flip the switch on the navigation bar:
 
 ![img](https://cdn.zappy.app/24f204fca00aab4a50fab9a05c581af6.png)
 
-### **2. What happens when you switch your development platform**
+### 2. What happens when you switch your development platform
 
 Alexa and Google are similar platforms that still have many differences. Depending on the availability of a feature for each platform, you will have access to the blocks in the Platform section.
 
@@ -21,7 +21,7 @@ For example, the Purchase block is only available on Alexa currently. Below, whe
 ![img](https://cdn.zappy.app/b2cb146c81b84022fdcf936ddd904c00.png)
 
 
-### **3. The platform variable**
+### 3. The **platform** variable
 
 The "platform variable" is the built-in variable that allows you to determine what platform the user is on when they activate your voice app.
 
@@ -31,7 +31,7 @@ You can find the platform variable within the Model window (press M to open the 
 
 Using the {platform} variable, you can determine what platform the user is on. This is handy when you want to have a different experience for Google Users vs Alexa Users.
 
-### ****How to separate platforms within the same project****
+### How to separate platforms within the same project
 
 To separate platforms, we want to use an IF block at the very beginning of our project and split users depending on their platform. Using our IF block, we want to have the two following conditions:
 

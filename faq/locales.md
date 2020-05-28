@@ -16,15 +16,21 @@ When you create a project, you'll be prompted to choose which locales you'd like
 
 Google allows you first to select languages supported by your skill, then to choose which countries to enable the Action for. Your Actions will work for people in every country who speak a language your Actions support. All settings for Google are done after [uploading your project](https://learn.voiceflow.com/en/articles/2705386-uploading-your-project-to-google-assistant) to Google Assistant.
 
-<div align="center">
-![img](https://gblobscdn.gitbook.com/assets%2Fcreator%2F-Lgt4xtTTSrloOdsClRm%2F-LgtCEFiZKw-akP7Yqr8%2F0.png?generation=1560032900718256&alt=media)
+![img](https://cdn.zappy.app/24419fa3b69b79a0c509253f8a7564a0.png)
 
 Once your skill has been created, you can navigate to the Publish tab in Voiceflow, and scroll down to Locales to edit your choices.
 
-![img](https://gblobscdn.gitbook.com/assets%2Fcreator%2F-Lgt4xtTTSrloOdsClRm%2F-LgtCEFjzSN84q0XYabt%2F1.png?generation=1560032900729409&alt=media)
-</div>
 
-**Updating Locales outside of Voiceflow**
+Alexa Skill  
+
+![img](https://cdn.zappy.app/a81d2917b556de9dd8db8c186be9c08b.png)
+
+
+Google Action  
+
+![img](https://cdn.zappy.app/f8dd39ebb389a37240e10441ed2b6d95.png)
+
+## Updating Locales outside of Voiceflow
 
 Any edits you make within Voiceflow will be saved when publishing, but you can also edit languages (and countries, for Google) outside of Voiceflow.
 

@@ -1,12 +1,11 @@
-# What Can I Do With Voiceflow?
+## What Can I Do With Voiceflow?
 
 Learn about some of Voiceflow's key features.
 
 **→** Voiceflow makes it easy to design & build voice apps as good as custom code, for a fraction of the time and cost.
 
-# **What Can I Do With Voiceflow? 🤔**
 
-# **Design & Prototype (Designers)**
+## Design & Prototype (Designers)
 
 ![img](https://cdn.zappy.app/1a6cbac4ab515fd6067b4852154e9d4e.png)
 
@@ -14,7 +13,7 @@ Learn about some of Voiceflow's key features.
 
 You can use Voiceflow to design high fidelity voice app prototypes as good as the real thing - quickly & easily. Voiceflow's no-code interface, collaboration tools, and user testing tools make it the ultimate solution for aspiring & professional Voice User Interface (VUI) Designers.
 
-# **Build & Integrate (Developers)**
+## Build & Integrate (Developers)
 
 ![img](https://cdn.zappy.app/c70ed87ce16f08365cddeb01bbe980e4.png)
 
@@ -26,7 +25,7 @@ Voiceflow makes it faster & easier to build out a well-designed voice interface 
 - Build cross-platform (Alexa + Google) simultaneously 
 - Work collaboratively with designers & stakeholders
 
-# ****Launch & Optimize (Everyone)****
+## Launch & Optimize (Everyone)
 
 ![img](https://cdn.zappy.app/e1f57c1ce5850f181b0b69739b0b34b9.png)
 
