@@ -10,7 +10,7 @@
   - [Interaction steps](/blocks/interaction-steps.md)
   - [Logic steps](/blocks/logic-steps.md)
   - [Platform steps (Alexa)](/blocks/platform-steps-alexa.md)
-  - [Platform steps (Google)](/blocks/platform-steps-google.md)
+  - [Platform steps (Google)](#)
       
 **Concepts**
 
@@ -29,9 +29,9 @@
 - [How Voiceflow works](/faq/how-voiceflow-works.md)
 - [Locales](/faq/locales.md)
 - [What can I do with Voiceflow](/quickstart/what-can-i-do-with-voiceflow.md)
-- [What are Alexa skills and Google actions?](/tutorials/what-are-alexa-skills.md)
-- [Alexa skill retention](/tutorials/alexa-skill-retention.md)
-- [Alexa Skill Certification Checklist](/tutorials/alexa-skill-certification-checklist.md) 
+- [What are Alexa skills and Google actions?](/faq/what-are-alexa-skills.md)
+- [Alexa skill retention](/faq/alexa-skill-retention.md)
+- [Alexa Skill Certification Checklist](/faq/alexa-skill-certification-checklist.md) 
 - [Invocation and Activation](/faq/invocation-and-activation.md)
 - [Check for a number](/tutorials/advanced-tutorials/checking-if-number.md)
 - [Tracking user sessions](/tutorials/advanced-tutorials/tracking-user-sessions.md)
@@ -39,3 +39,7 @@
 
 **Release notes**
   - [New releases 🔥](/releases/releases.md)
+
+**Legal**
+- [Terms of service](/faq/legal/voiceflow-terms-of-service.md)
+- [Privacy Policy](/faq/legal/voiceflow-privacy-policy.md)
