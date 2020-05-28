@@ -35,7 +35,7 @@ The Speak step allows the assistant to respond to the user and "speak" using eit
 
 Within the Speak step editor, you can write text in the outlined box to control what the assistant says with a text-to-speech voice. 
 
-<img src="/Users/bradenream-neal/Desktop/Screen Shot 2020-05-27 at 8.58.29 PM.png" style="zoom:50%;" />
+<img src="/images/Interaction-steps/add audio section.png"  alt="img"/>
 
 ### Play an uploaded audio file
 
