@@ -6,7 +6,7 @@
   - [Migrating a live skill](/quickstart/migrating.md)
     
 **Steps overview** 
-  - [Home step](/blocks/start-block.md)
+  - [Steps overview](/blocks/start-block.md)
   - [Interaction steps](/blocks/interaction-steps.md)
   - [Logic steps](/blocks/logic-steps.md)
   - [Platform steps (Alexa)](/blocks/platform-steps-alexa.md)
