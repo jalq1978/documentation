@@ -35,13 +35,13 @@ The Speak step allows the assistant to respond to the user and "speak" using eit
 
 Within the Speak step editor, you can write text in the outlined box to control what the assistant says with a text-to-speech voice. 
 
-<img src="/images/Interaction-steps/add audio section.png"  alt="img"/>
+<img src="/images/Interaction-steps/speak with text.png"  alt="img"/>
 
 ### Play an uploaded audio file
 
 Clicking on the "audio" button in the right hand side of the Speak step editor window will add a new section to the Speak step where an audio file will play. 
 
-![speak-audio](/Users/bradenream-neal/Desktop/speak-audio.png)
+<img src="/images/Interaction-steps/add audio section.png"  alt="img"/>
 
 #### Uploading an audio file
 
@@ -55,7 +55,7 @@ From here, you can either browse to upload, or drag-and-drop an audio file into 
 
 You can preview an audio file in the browser by clicking on the preview button. You can also preview different sections of the audio file by clicking on different parts of the box to scrub the file dynamically.
 
-![speak-preview](/Users/bradenream-neal/Desktop/speak-preview.png)
+<img src="/images/Interaction-steps/preview audio.png"  alt="img"/>
 
 
 
@@ -63,7 +63,7 @@ You can preview an audio file in the browser by clicking on the preview button. 
 
 You can delete an uploaded audio file by clicking on the "X" icon in the top right corner of your uploaded file.
 
-![delete](/Users/bradenream-neal/Desktop/delete.png)
+<img src="/images/Interaction-steps/delete audio section.png"  alt="img"/>
 
 
 
@@ -71,9 +71,9 @@ You can delete an uploaded audio file by clicking on the "X" icon in the top rig
 
 You can stream an audio file by clicking on the link icon in the top right once you have added your audio step. Unlike uploading an audio file, Voiceflow will not host this file so you will have to ensure it follows the proper bitrate of the assistant you are building for. 
 
-![stream](/Users/bradenream-neal/Desktop/stream.png)
+<img src="/images/Interaction-steps/stream audio.png"  alt="img"/>
 
-![LINK](/Users/bradenream-neal/Desktop/LINK.png)
+<img src="/images/Interaction-steps/stream audio link.png"  alt="img"/>
 
 Many popular hosting services can be used such as Dropbox, Airtable or S3. You need to enter the sharable link for the file, not the URL of the file. If the URL is correct, once you hit enter it will turn to a preview section similar to when you upload an audio file on Voiceflow. An example can be found below of a streamed audio file from Dropbox.
 
