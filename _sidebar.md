@@ -6,7 +6,7 @@
   - [Migrating a live skill](/quickstart/migrating.md)
     
 **Steps overview** 
-  - [Home step](/blocks/start-block.md)
+  - [Steps overview](/blocks/start-block.md)
   - [Interaction steps](/blocks/interaction-steps.md)
   - [Logic steps](/blocks/logic-steps.md)
   - [Platform steps (Alexa)](/blocks/platform-steps-alexa.md)
@@ -25,12 +25,6 @@
   - [How Voiceflow manages cross-platform building](/adapting-for-google/how-voiceflow-manages-cross-platform-building.md)
   - [Deleting projects in Google Action Console](/adapting-for-google/deleting-projects-in-google-actions-console.md)
 
-**Tutorials**
-  - [Advanced Tutorials](#)
-    - [Check for a number](/tutorials/advanced-tutorials/checking-if-number.md)
-    - [Tracking user sessions](/tutorials/advanced-tutorials/tracking-user-sessions.md)
-    - [Beta testing your Skill](/tutorials/advanced-tutorials/using-beta-testing-with-your-alexa-skill.md)
-
 **FAQ**
 - [How Voiceflow works](/faq/how-voiceflow-works.md)
 - [Locales](/faq/locales.md)
@@ -39,6 +33,9 @@
 - [Alexa skill retention](/faq/alexa-skill-retention.md)
 - [Alexa Skill Certification Checklist](/faq/alexa-skill-certification-checklist.md) 
 - [Invocation and Activation](/faq/invocation-and-activation.md)
+- [Check for a number](/tutorials/advanced-tutorials/checking-if-number.md)
+- [Tracking user sessions](/tutorials/advanced-tutorials/tracking-user-sessions.md)
+- [Beta testing your Skill](/tutorials/advanced-tutorials/using-beta-testing-with-your-alexa-skill.md)
 
 **Release notes**
   - [New releases 🔥](/releases/releases.md)
