@@ -15,6 +15,16 @@
     --heading-h2-color                  : #2A2B30;
     --heading-h2-font-size              : 2rem;
 
+    --heading-h3-font-family            : 'Muli', sans-serif;;
+    --heading-h3-font-size              : 1.75rem;
+    --heading-h3-font-weight            : 600 ;
+
+
+    --heading-h4-border-style           : solid;
+    --heading-h4-font-family            : 'Muli', sans-serif;;
+    --heading-h4-font-size              : 1.5rem;
+    --heading-h4-font-weight            : 500;
+
 
     --base-background-color: #F9F9F9;
     --base-color           : #2A2B30;
@@ -44,7 +54,22 @@
     --sidebar-name-text-align                     : center;
     --sidebar-name-font-size                      : 0;
 
+    /* Nav Headings */
+    --sidebar-nav-strong-color                    : red;
+    --sidebar-nav-strong-font-size                : ;
+    --sidebar-nav-strong-font-weight              : var(--strong-font-weight);
+    --sidebar-nav-strong-margin                   : 1.5em 0 0.5em;
+    --sidebar-nav-strong-padding                  : 0.25em 0;
 
-
+    /* Nav Links */
+    --sidebar-nav-link-color                      : #2A2B30;
+    --sidebar-nav-link-color--active              : #027AFF;
+    --sidebar-nav-link-color--hover               : #027AFF;
+    --sidebar-nav-link-font-weight                : 350;
+    --sidebar-nav-link-font-weight--active        : ;
+    --sidebar-nav-link-font-weight--hover         : ;
+    --sidebar-nav-link-margin                     : -0.5em;
+    --sidebar-nav-link-padding                    : 0em 0;
+    --sidebar-nav-link-border-color--active       : #027AFF;
 
 }

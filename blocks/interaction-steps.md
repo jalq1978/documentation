@@ -1,17 +1,19 @@
 # Interaction steps
+<b>Interaction steps are the core Steps that create a conversational interaction between the user and the assistant. 
+These are the conversational components that can be used to make the assistant speak, as well as listen and react to the user's intentions in a variety of ways.</b>
 
-## Overview
+These are the interaction steps:
+1. Speak step - controls the responses of the assistant
+2. Choice step - linear branching choices in a conversation
+3. Intent step - jump to a particular part of a conversation
 
-Interaction steps are the core Steps that create a conversational interaction between the user and the assistant. These are the conversational components that can be used to make the assistant speak, as well as listen and react to the user's intentions in a variety of ways.
 
 ## Speak step
+<b>The Speak step allows the assistant to respond to the user and "speak" using either a text-to-speech voice or an audio file of a supported format. 
+The Speak step can be found in the Interactions section of the Step menu. To add a Speak step to your project, click and drag one onto the canvas. </b>
 
-### Overview
-
-The Speak step allows the assistant to respond to the user and "speak" using either a text-to-speech voice or an audio file of a supported format. The Speak step can be found in the Interactions section of the Step menu. To add a Speak step to your project, click and drag one onto the canvas.
 
 ![img](../images/Interaction-steps/gifs/speak-drag.gif)
-
 
 ### Speak step features
 
@@ -178,7 +180,6 @@ Many popular hosting services can be used such as Dropbox, Airtable or S3. You n
 
 ![img](../images/Interaction-steps/gifs/speak-audio-link-add.gif)
 
-## 
 
 #### Supported audio streaming filetypes
 
@@ -198,17 +199,8 @@ Files for the Speak step can only be up to 240 seconds if uploading to Alexa, an
 When using the speak step, if you were to use back to back steps with audio uploaded, the audio time within them is added. This is because all steps will process concurrently until the user is faced with user input (i.e. choice step, interaction block, etc.) The limit applies to the total, until there is user input, then this limit resets.
 For example: using two back to back speak steps with 2 mins and 3 mins wouldn't work, because that would total five mins. But using speak/choice/speak would, because the time is 'reset' after user input.
 
-## **Choice Block**
-
-### Related articles
-
-- Intents and Slots
-
-### What Are Choice Blocks?
-
-Choice blocks allow you to ask users to make a choice from a pre-defined list of choices. If the user says one of the choices listed in the choice block, it will follow that choice's path. If the user says something that isn't one of the listed choices, the user will follow the ELSE path.
-
-
+## Choice Step
+<b>Choice steps allow you to ask users to make a choice from a pre-defined list of choices. If the user says one of the choices listed in the choice block, it will follow that choice's path. If the user says something that isn't one of the listed choices, the user will follow the ELSE path. </b>
 
 <img src="https://i.imgur.com/wLosZqO.png" alt="img" style="zoom:50%;" />
 
@@ -290,5 +282,8 @@ Intents must be chosen in the drop down menu.
 
 Intent blocks allow you jump to specific points inside a project without having to be connected by lines to other blocks. This allows you to jump to an intent block at any point in your project.
 
+===================
+<br>
 Last edited: May 28 2020 <br>
-Edited by: braden@voiceflow.com
+Edited by: braden@voiceflow.com <br>
+Docs need an update, or have a question?  Message me!
