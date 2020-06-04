@@ -1,8 +1,5 @@
 # Interaction steps
 
-Last edited: May 28 2020
-Created by: braden@voiceflow.com
-
 ## Overview
 
 Interaction steps are the core Steps that create a conversational interaction between the user and the assistant. These are the conversational components that can be used to make the assistant speak, as well as listen and react to the user's intentions in a variety of ways.
@@ -292,3 +289,6 @@ Intents must be chosen in the drop down menu.
 ### Jumping around inside a project
 
 Intent blocks allow you jump to specific points inside a project without having to be connected by lines to other blocks. This allows you to jump to an intent block at any point in your project.
+
+Last edited: May 28 2020 <br>
+Edited by: braden@voiceflow.com
