@@ -7,10 +7,10 @@
     --heading-h1-font-weight            : 800 ;
     --heading-h1-font-family            : 'Muli', sans-serif;
     --heading-h1-color                  : #2A2B30;
-    --heading-h1-font-size              : 4rem;
+    --heading-h1-font-size              : 3rem;
 
 
-    --heading-h2-font-weight            : 900 ;
+    --heading-h2-font-weight            : 800 ;
     --heading-h2-font-family            : 'Muli', sans-serif;
     --heading-h2-color                  : #2A2B30;
     --heading-h2-font-size              : 2rem;
@@ -24,8 +24,9 @@
     --base-line-height     : 1.7;
 
 
-    --sidebar-width                               : 22rem;
-    --sidebar-name-font-family                    : 'Muli', sans-serif;
+    --sidebar-width                               : 23rem;
+    --sidebar-nav-strong-font-weight              : 1rem;
+
 
     /* Sidebar active state */
 

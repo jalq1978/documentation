@@ -1,21 +1,18 @@
-**Learn the basics**
-  - [The canvas](/quickstart/get-started-with-voiceflow.md)
-  - [Testable Links](/quickstart/testable-links.md)
-  - [Downloadable Links](/quickstart/downloadable-links.md)
-  - [Intents and Slots](/blocks/intents-slots.md)
-  - [Migrating a live skill](/quickstart/migrating.md)
+[Home](/#)
+
+  - [Beginner tutorial videos](/quickstart/get-started-with-voiceflow.md)
+  
+**Features**
+- [Testable Links](/quickstart/testable-links.md)
+- [Downloadable Links](/quickstart/downloadable-links.md)
     
-**Steps overview** 
+**Steps overview**
   - [Steps overview](/blocks/start-block.md)
   - [Interaction steps](/blocks/interaction-steps.md)
   - [Logic steps](/blocks/logic-steps.md)
   - [Platform steps (Alexa)](/blocks/platform-steps-alexa.md)
   - [Platform steps (Google)](#)
-      
-**Concepts**
-
-**Features**      
-
+     
 **Monetization** 
   - [In-skill-purchases (ISP)](/monetization/alexa-in-skill-purchases.md)
 
@@ -28,7 +25,6 @@
 **FAQ**
 - [How Voiceflow works](/faq/how-voiceflow-works.md)
 - [Locales](/faq/locales.md)
-- [What can I do with Voiceflow](/quickstart/what-can-i-do-with-voiceflow.md)
 - [What are Alexa skills and Google actions?](/faq/what-are-alexa-skills.md)
 - [Alexa skill retention](/faq/alexa-skill-retention.md)
 - [Alexa Skill Certification Checklist](/faq/alexa-skill-certification-checklist.md) 
@@ -36,10 +32,8 @@
 - [Check for a number](/tutorials/advanced-tutorials/checking-if-number.md)
 - [Tracking user sessions](/tutorials/advanced-tutorials/tracking-user-sessions.md)
 - [Beta testing your Skill](/tutorials/advanced-tutorials/using-beta-testing-with-your-alexa-skill.md)
+- [Intents and Slots](/blocks/intents-slots.md)
+- [Migrating a live skill](/quickstart/migrating.md)
 
 **Release notes**
   - [New releases 🔥](/releases/releases.md)
-
-**Legal**
-- [Terms of service](/faq/legal/voiceflow-terms-of-service.md)
-- [Privacy Policy](/faq/legal/voiceflow-privacy-policy.md)
