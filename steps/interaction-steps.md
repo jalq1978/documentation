@@ -8,7 +8,7 @@ These are the interaction steps:
 3. Intent step - jump to a particular part of a conversation
 
 
-## Speak step
+## **Speak step**
 <b>The Speak step allows the assistant to respond to the user and "speak" using either a text-to-speech voice or an audio file of a supported format. 
 The Speak step can be found in the Interactions section of the Step menu. To add a Speak step to your project, click and drag one onto the canvas. </b>
 
@@ -199,61 +199,61 @@ Files for the Speak step can only be up to 240 seconds if uploading to Alexa, an
 When using the speak step, if you were to use back to back steps with audio uploaded, the audio time within them is added. This is because all steps will process concurrently until the user is faced with user input (i.e. choice step, interaction block, etc.) The limit applies to the total, until there is user input, then this limit resets.
 For example: using two back to back speak steps with 2 mins and 3 mins wouldn't work, because that would total five mins. But using speak/choice/speak would, because the time is 'reset' after user input.
 
-## Choice Step
-<b>Choice steps allow you to ask users to make a choice from a pre-defined list of choices. If the user says one of the choices listed in the choice block, it will follow that choice's path. If the user says something that isn't one of the listed choices, the user will follow the ELSE path. </b>
+## **Choice Step**
+<b>Choice steps allow you to ask users to make a choice from a pre-defined list of choices. If the user says one of the choices listed in the choice step, it will follow that choice's path. If the user says something that isn't one of the listed choices, the user will follow the ELSE path.
+Choice steps are a core component of Voiceflow and can be found in the interaction steps menu.</b>
 
-<img src="https://i.imgur.com/wLosZqO.png" alt="img" style="zoom:50%;" />
+![img](../GIFs/Steps/interaction-steps/add-choice-step.gif)
 
+### Adding Choice paths
+Choice steps are made up of intent-based "paths", and the "else" path. When the user reaches a choice step in the conversation, the assistant will begin listening for what the user says.
+Depending on what the user says, they will take a different path in the conversation.
 
+![img](../GIFs/Steps/interaction-steps/choice-step-add-paths.gif)
 
-### Adding Choices
+### Creating and linking 'intents
+Each path represents a different way the conversation could go depending on what the user says. As the Conversation Designer, you choose where the conversation
+goes by assigning an intent to each path. An intent is a collection of phrases, also called utterances, that the user might say to signify their intention, or "intent". You
+can either select an existing intent, or create a new intent within the choice step. You can also delink intents from each path without deleting the path.
 
-To add choices, drag the choice block out from your block menu onto the canvas. You will automatically have a single choice ready. Select an intent from the drop down list to complete your choice block. 
+As an example, if we asked a user if they want to go left or right and we want to create a path for the user going right, we would create an intent called "goes_right" and provide some
+sample utterances for what the user might say to signify their intention is to go right. Some sample utterances for our "go_right" intent could be:
+- "go right"
+- "I want to go right"
+- "right"
+- "please go right"
 
+Now, if the user says any of the sample utterances within the go_right intent, that intent will be triggered and the conversation will follow whatever
+path has the go_right intent linked.
 
+![img](../GIFs/Steps/interaction-steps/choice-create-intent.gif)
 
-<img src="https://i.imgur.com/W2dxMRF.png" alt="img" style="zoom:50%;" />
+### Linking a choice path
+When you link a choice path, you are creating the conversation path if the user says the intent of that particular path. For example, if you have an
+intent of "order pizza" for path 2 and the user activates the order pizza intent, the user will follow path 2.
 
+To link a choice path, click on the port of your selected path, then click and drag the selected connector to where you want to link.
 
+![img](../GIFs/Steps/interaction-steps/choice-link-connectors.gif)
 
-To add more choices to your choice block, hit the "Add Path" button and select and intent. You should see there are now multiple paths on the choice block, one for every path that you have defined.
+### The ELSE path (error handling)
+If the user responds with something that is NOT one of the listed choice options, then the ELSE block port will be activated. For example, if the user was to say "Zebra" 
+as an utterance for a choice step asking the user for a "Yes" or "No" question, it would trigger the ELSE path. This is because "Zebra" is not close enough to "Yes," "No," or any of their synonyms to trigger either path.
 
+If you have the ELSE path unlinked to anything and the user does not trigger any of your intent-linked paths in the choice step, your conversation will stop.
+It is suggested that you always link your ELSE path to another step, often to a step which tells the user they said something wrong and should try again.
 
-
-
-
-<img src="https://i.imgur.com/HUI6JL6.png" alt="img" style="zoom:50%;" />
-
-
-
-ELSE Port
-
-If the user responds with something that is NOT one of the listed choice options, then the ELSE block port will be activated. For example, if the user was to say "Zebra" as a response choice block asking the user for a "Yes" or "No" answer, it would trigger the ELSE path. This is because "Zebra" is not close enough to "Yes," "No," or any of their synonyms to trigger either path.
-
-
-
-Using ELSE As An Error Handler
-
-You can use the ELSE on a Choice block as an "Error Handler". The Error Handler will repeat the available options back to the user, and ask them to choose again. This allows you to ensure they are always choosing from the available options on the list.
-
-
-
-<img src="https://i.imgur.com/riGC5jE.png" alt="img" style="zoom:80%;" />
-
+![img](../GIFs/Steps/interaction-steps/choice-else-path.gif)
 
 ### No Reply Response
 
-If Alexa fails to map whatever the user says to any intent defined in your skill, the No Reply Response occurs. For instance if the user says nothing, gibberish, or *words that aren't part of any intent*, it does not map to an intent. A reprompt needs to be defined with the last outgoing message and the Voiceflow service receives no information when a reprompt happens.
+If the assistant does not hear your user's response, or the user's response is gibberish, the No Reply Response occurs. You can define a No Reply Response if this occurs
+by clicking on the three-dots button in the choice step and adding a No Reply Response. Many assistants will automatically repeat the previous prompt if a No Response is detected,
+however you can customize this response with Voiceflow's No Reply Response field.
 
-We send out each choice with the default reprompt of the last spoken thing. So if you have a speak block "What color do you like?" followed by a choice block, and Alexa fails to map to an intent, it will simply repeat "What color do you like?"
+No Reply Responses only occur twice and will exit the app if the assistant still doesn't understand after a third time.
 
-However, Voiceflow allows you to define custom No Reply Response if you don't want it to repeat the same thing. This can be done on any choice or capture block.
-
-![img](https://cdn.zappy.app/3338a4aa21d08c5812a917125adee5cd.png)
-
-![img](https://cdn.zappy.app/5d68320e17c50f63053b733d68fb94a9.png)
-
-No Reply Response only occur twice and will exit the skill if it still doesn't understand the third time.
+![img](../GIFs/Steps/interaction-steps/choice-add-noreply.gif)
 
 ## **Intent Block**
 

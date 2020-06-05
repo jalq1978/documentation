@@ -1,5 +1,4 @@
-<b>[Home](/#)</b>
-
+[<b>Docs Home</b>](/#)
   - [Beginner tutorial videos](/quickstart/get-started-with-voiceflow.md)
   
 <b>Features</b>
@@ -8,13 +7,13 @@
 <b>Concepts</b>
 - [Locales](/Concepts/locales.md)
 - [Invocation and Activation](/Concepts/invocation-and-activation.md)
-- [Intents and Slots](/blocks/intents-slots.md)
+- [Intents and Slots](/steps/intents-slots.md)
     
-<b>Steps overview</b>
-  - [Steps overview](/blocks/start-block.md)
-  - [Interaction steps](/blocks/interaction-steps.md)
-  - [Logic steps](/blocks/logic-steps.md)
-  - [Platform steps (Alexa)](/blocks/platform-steps-alexa.md)
+[<b>Steps overview</b>](/steps/steps-overview.md)
+  - [Home & Start step](/steps/home-start-step.md)
+  - [Interaction steps](/steps/interaction-steps.md)
+  - [Logic steps](/steps/logic-steps.md)
+  - [Platform steps (Alexa)](/steps/platform-steps-alexa.md)
   - [Platform steps (Google)](#)
    
 <b>Platform features: Alexa</b>

@@ -25,6 +25,11 @@
     --heading-h4-font-size              : 1.5rem;
     --heading-h4-font-weight            : 500;
 
+    --heading-h5-border-style           : solid;
+    --heading-h5-font-family            : 'Muli', sans-serif;;
+    --heading-h5-font-size              : 1.25rem;
+    --heading-h5-font-weight            : 600;
+
 
     --base-background-color: #F9F9F9;
     --base-color           : #2A2B30;
