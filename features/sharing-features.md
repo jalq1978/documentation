@@ -10,7 +10,7 @@
 #### How to create a downloadable link
 Project download links can be accessed from the share dropdown within your project.
 
-![img](https://gblobscdn.gitbook.com/assets%2F-LgK_X2m6IAIYcINBjCj%2F-M79Nr39pQLNwzrZVp6c%2F-M79OM_DiRwNjrBUh4j9%2Fimage.png?alt=media&token=f021ca52-11c1-413f-9866-0d162e597afe)
+![img](../GIFs/Features/create-downloadlink.gif)
 
 #### How to download a project
 When the sharable link is pasted into the browser, you will see this modal where you can select the workspace you'd like to download the project to:
@@ -28,8 +28,7 @@ To generate a sharable prototype link, click on the "Share" button and then hit 
 You can now go ahead and send your URL to other people for them to try your project in their browser. This will generate a prototype for the current version of the project, and the link will
 not update the prototoype as you continue to make changes unless you generate a new sharable link.
 
-
-![img](https://gblobscdn.gitbook.com/assets%2F-LgK_X2m6IAIYcINBjCj%2F-M79Exo1zBVXjBUva2j5%2F-M79F_FdSjn347wswiv3%2Fimage.png?alt=media&token=956aa2bb-761f-40fc-995a-a036f0744689)
+![img](../GIFs/Features/share-testlink.gif)
 
 #### Sharing a sharable prototype link
 Once you have generated and copied a sharable prototype link to your clipboard, you can go to that link in your browser to have a full prototyping experience in the browser.

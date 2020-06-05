@@ -2,11 +2,6 @@
 
 Learn how to better personalize your voice apps with Voiceflow's tracking variables.
 
-**Blocks Used:**
-
-- [IF Blocks](/blocks/if-block.md)
-- [SET Blocks](/blocks/set-block.md)
-
 **Tracking User Sessions Overview**
 Voiceflow gives you the ability to track the number of sessions a user has had on your voice app through the use of persistent variables. This allows you to better personalize the experience of your users.
 
@@ -39,13 +34,11 @@ Let's do that now.
 
 **Resetting variables**
 
-**Step one: add an** [Intent block](/blocks/intent-block.md) 
 We want the user to, at any time, be able to reset their app's variables and start from the beginning. To do this, we need to add an INTENT block with the intent 'RESET'. When the user asks Alexa to RESET, no matter where they are in that flow (not sub-flow), this intent block will be activated.
 
 ![img](https://cdn.zappy.app/d8a76357c51c40d91f9273d60d642a13.png)
 
-**Step two: reset app variables with a** [Set block](/blocks/set-block.md)
-Next, we want to hook our RESET intent block up to a SET block which will reset all of our variables, most importantly the sessions variable. In this example, we reset the {sessions} variable to 1 which treats the user like its their first session. Then, we link the user back to our original [IF Block](/blocks/if-block.md). The user's {sessions} variable has been reset to 1, so they will activate the 'new user' condition on our IF block and be sent through onboarding again where they can reset their name variable.
+Next, we want to hook our RESET intent block up to a SET block which will reset all of our variables, most importantly the sessions variable. In this example, we reset the {sessions} variable to 1 which treats the user like its their first session. Then, we link the user back to our original. The user's {sessions} variable has been reset to 1, so they will activate the 'new user' condition on our IF block and be sent through onboarding again where they can reset their name variable.
 
 ![img](https://cdn.zappy.app/c51aa1f28a5f2f2ae2a628f0eddda195.png)
 

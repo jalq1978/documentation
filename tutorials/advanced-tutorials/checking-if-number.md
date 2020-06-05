@@ -2,12 +2,6 @@
 
 Learn how to ensure you get only numbers from users when you ask.
 
-**Blocks used:**
-
-- [Capture block](/blocks/capture-block.md)
-- [IF block](/blocks/if-block.md)
-- [Speak block](/blocks/speak-block.md)
-
 **When would I need to do this?** Let's say we want to ask the user for their age in our birthday candles voice app, and want to multiply their answer by 5 to calculate the total candle price. We ask the user for their age, and they say '10 years old'. Our app will crash because we can't multiply '10 years old' by 5 because it's a word, not a number.
 
 We want the user to say '10' because it's a number - not '10 years old', which is a word. But of course, it would be bad user experience to ask them beforehand to say only the number - and even then some users may not 'get it' and would still say a word.
