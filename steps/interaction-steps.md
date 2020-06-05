@@ -255,32 +255,44 @@ No Reply Responses only occur twice and will exit the app if the assistant still
 
 ![img](../GIFs/Steps/interaction-steps/choice-add-noreply.gif)
 
-## **Intent Block**
+## **'Intent Step**
+<b>The Intent step, also known as jump steps, allow you to create non-linear conversation paths within your conversation. Unlike the Choice step which requires a direct link
+to activate and then branches to multiple paths, the Intent step requires no direct link and can be activated from anywhere within the project by its linked intent. Also unlike
+the choice step, the Intent step does not have multiple branching paths and only has one path connector.</b>
 
-### What Are Intent Blocks?
+![img](../GIFs/Steps/interaction-steps/IntentStep-add.gif)
 
-Intent blocks allow you to add shortcuts within your project. With Intent blocks, a user can say an intent at any point within the skill (or outside the skill) and "jump" to that point in the project.
+### Linking 'intents to an 'intent step
+Intent steps having globally available intents that are constantly listening for their linked intent to be invoked by the user. When their
+linked intent is invoked, the intent step will activate and its single conversation path will be followed. 
 
-For example, you could add an intent for 'Home' which allows the user to always return to a home menu using the Intent block. Or, you could use a Intent Block to jump to a new place in an interactive story ⏤ the use cases are endless.
+To link an intent to an Intent step, open the Intent step's editor and either select an existing intent to link, or create a new intent.
 
-### How Intent Blocks Work
+![img](../GIFs/Steps/interaction-steps/intentStep-linking-intent.gif)
 
-![img](https://i.imgur.com/EKWwRiL.png)
+### Pulling slots from an 'Intent step
+Intents linked within an Intent step act like a normal intent and can thus pull slots from the user's utterance if the slots have been
+defined. 
 
+### 'Intent step context priority & sub-flows
+Intent steps follow Voiceflow's context-model which is a waterfall system where the deepest part of the conversation, either in terms of the
+number of completed conversational turns or the level of subflow, determines the priority of the Intent step invoked. The deepest, most contextually
+relevant Intent step or Command flow is always chosen. 
 
-Intent blocks only have one outbound port because they do not take an input to be activated. The Intent block is constantly listening for it's keyword or key phrase to activate the block. To setup an Intent block:
+As an example, if you have three linked subflows, and an Intent step linked with the "Help" intent on each flow, the Intent step present on the subflow
+the user is currently on will be the one that is activated. If you have 3 Intent steps all linked with the "Help" intent on the same flow, the Intent
+step that is closest to the user's current conversational turn will be chosen. 
 
-### How intent blocks know what to look for
+Intent steps are listening globally for their linked intent to be invoked. They are listening according to Voiceflow's waterfall context model. For example, if
+the user is on the 3rd subflow and invokes the "help intent", Voiceflow will first search for a matching intent step on their current flow, the 3rd flow. If
+Voiceflow does not finding a matching intent, it will jump up to the next layer ("waterfall up") and search for the matching intent there. If it does not find it,
+it will again waterfall up and continue this process until Voiceflow either finds the matching intent, or, the user's utterance produces "no match" and no intent
+is invoked.
 
-Intent blocks need to be filled with an Intent. Your Intent block will be listening at all times for a users input that matches the intent that is specified.
-
-Intents must be chosen in the drop down menu.
-
-![img](https://i.imgur.com/yObEE40.png)
-
-### Jumping around inside a project
-
-Intent blocks allow you jump to specific points inside a project without having to be connected by lines to other blocks. This allows you to jump to an intent block at any point in your project.
+### CanfulfillIntent (Alexa only)
+When working on an Alexa platform project, you'll see a toggle within the Intent step which is "CanFullfillIntent". This is a feature
+provided by Alexa that allows your live published Alexa Skills to be accessed automatically by Alexa users asking their devices for that particular
+intent. You can think of CanFulfillintent as making your website available to search engines - this serves a similar function for Alexa Skills.
 
 ===================
 <br>
