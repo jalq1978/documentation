@@ -1,116 +1,116 @@
-### ADC
+#### ADC
 Alexa Developer Console. The Alexa Developer Console is a conversational platform that allows developers to build, test, distribute and certify Alexa Skills.
 [(source)](https://www.voiceflow.com/glossary/alexa-developer-console ':alt="Vocieflow"')
 
-### AI Assistants / Virtual Assistants
+#### AI Assistants / Virtual Assistants
 Consumer-facing AI systems can carry out tasks or services for an individual based on commands or questions.
 [(source)](https://www.voiceflow.com/glossary/ai-assistants-virtual-assistants ':alt="Vocieflow"')
 
-### Access Token
+#### Access Token
 A credential that represents the end user (resource owner) in another system. A token should identify the user in the other system. The access token is included in the requests sent to your skill if the user has successfully linked their accounts. 
 [(source)](https://www.voiceflow.com/glossary/access-token ':alt="Vocieflow"')
 
-### Account Linking
+#### Account Linking
 An Alexa Skills Kit feature that lets you connect the identity of the end user with an account in another system. For example, a Car Hailer custom skill for ordering a ride needs to access the Car Hailer service as a specific user. Similarly, a smart home skill for controlling a light needs to connect the Alexa user with an account in the device cloud. 
 [(source)](https://www.voiceflow.com/glossary/account-linking ':alt="Vocieflow"')
 
-### Action package
+#### Action package
 A JSON file that defines your Actions. This file includes information for the Actions directory listing, account linking information, a list of intents that the Actions can handle, and the actual fulfillment endpoints.
 [(source)](https://www.voiceflow.com/glossary/action-package ':alt="Vocieflow"')
 
-### Action phrase
+#### Action phrase
 A phrase that opens a specific action when spoken to a Google Assistant. Also known as the "invocation phrase" or "implicit invocation intent". An example of this would be "Ok Google, open Trivial Pursuit".
 [(source)](https://www.voiceflow.com/glossary/action-phrase ':alt="Vocieflow"')
 
-### Actions Simulator
+#### Actions Simulator
 A web tool for testing and debugging Actions in real-time. The simulator lets you test your Actions for all surfaces that the Google Assistant supports, without requiring a physical device.
 [(source)](https://www.voiceflow.com/glossary/actions-simulator ':alt="Vocieflow"')
 
-### Alexa Developer Console (ADC)
+#### Alexa Developer Console (ADC)
 The Alexa Developer Console is a conversational platform that allows developers to build, test, distribute and certify Alexa Skills.
 [(source)](https://www.voiceflow.com/glossary/alexa-developer-console ':alt="Vocieflow"')
 
-### Alexa Presentation Language (APL)
+#### Alexa Presentation Language (APL)
 This is Amazon's voice-first design language that makes it easy to create visually-rich Alexa skills for millions of Alexa devices with screens. APL enables creators to build interactive voice experiences that include graphics, images, slideshows, and video and to customize them for different device types such as Echo Show, Fire TV and select Fire Tablet devices.
 [(source)](https://www.voiceflow.com/glossary/alexa-presentation-language-apl ':alt="Vocieflow"')
 
-### Alexa Skill
+#### Alexa Skill
 A set of actions or tasks that are accomplished by Alexa — Amazon's voice assistant. Skills are like apps for Alexa. They help customers perform everyday tasks or engage with content naturally through voice.
 [(source)](https://www.voiceflow.com/glossary/alexa-skill ':alt="Vocieflow"')
 
-### Alexa Skills Kit
+#### Alexa Skills Kit
 A collection of APIs, tools and documentation for giving Alexa new capabilities.
 [(source)](https://www.voiceflow.com/glossary/alexa-skills-kit ':alt="Vocieflow"')
 
-### Amazon Polly
+#### Amazon Polly
 A service that turns text into lifelike speech, allowing you to create applications that talk, and build entirely new categories of speech-enabled products. The text-to-speech service uses advanced deep learning technologies to synthesize speech that sounds like a human voice. With dozens of lifelike voices across a variety of languages, you can select the ideal voice and build speech-enabled applications that work in many different countries. 
 [(source)](https://www.voiceflow.com/glossary/amazon-polly ':alt="Vocieflow"')
 
-### Ambient Computing
+#### Ambient Computing
 This is a term used to describe a state where technology is omnipresent and accessible whenever required.
 [(source)](https://www.voiceflow.com/glossary/ambient-computing ':alt="Vocieflow"')
 
-### Application Program Interface (API)
+#### Application Program Interface (API)
 This is code that allows two software programs to communicate with each other.
 [(source)](https://www.voiceflow.com/glossary/application-program-interface-api ':alt="Vocieflow"')
 
-### Apps
+#### Apps
 Stands for "applications". Apps are pieces of software written for a specific platform that are meant to do a particular task. For example, on the iPhone platform, you could create a calculator "app" that utilizes the software and hardware in the iPhone.
 [(source)](https://www.voiceflow.com/glossary/apps ':alt="Vocieflow"')
 
-### Automated Attendant (Digital Receptionist)
+#### Automated Attendant (Digital Receptionist)
 An application with interactive voice response (IVR) systems that automatically answers, directs, and transfers incoming calls to an extension without the need of a phone operator/receptionist.
 [(source)](https://www.voiceflow.com/glossary/automated-attendant-digital-receptionist ':alt="Vocieflow"')
 
-### Automated Speech Recognition (ASR)
+#### Automated Speech Recognition (ASR)
 Computer technology that can identify and process human voice. It is mainly used to convert spoken words into computer text. ASR is also used for authenticating users via their voice and performing an action based on the instructions defined by the user. Typically, automatic speech recognition requires preconfigured or saved voices of the primary user(s). It is also known as Automatic Voice Recognition (AVR)
 [(source)](https://www.voiceflow.com/glossary/automated-speech-recognition-asr ':alt="Vocieflow"')
 
-### Chatbots
+#### Chatbots
 Programs that automate conversations on web or instant messenger
 [(source)](https://www.voiceflow.com/glossary/chatbots ':alt="Vocieflow"')
 
-### Cognitive Load
+#### Cognitive Load
 The total amount of mental effort being used in the working memory, or how difficult it is for a user to understand or parse the information being presented to them. 
 [(source)](https://www.voiceflow.com/glossary/cognitive-load ':alt="Vocieflow"')
 
-### Confirmation
+#### Confirmation
 sure the customer knows she understood them correctly. Types of confirmation include Implicit confirmation and Explicit confirmation. 
 [(source)](https://www.voiceflow.com/glossary/confirmation ':alt="Vocieflow"')
 
-### Conversation Design
+#### Conversation Design
 Conversation design, at its heart, is about teaching computers to communicate like humans, and not the other way around. It’s about making these experiences easy and intuitive, and reducing frustration. At a more practical level, it’s about designing experiences that include conversational interactions, whether that’s through a voice user interface, a voice-forward screen, or a multi-modal device like a mobile phone that may include typing, tapping and swiping.
 [(source)](https://www.voiceflow.com/glossary/conversation-design ':alt="Vocieflow"')
 
-### Conversational Artificial Intelligence (CAI)
+#### Conversational Artificial Intelligence (CAI)
 Refers to the use of messaging apps, speech-based assistants (Amazon Alexa, Google Assistant etc.) and chatbots to automate communication, enhance machine learning which can in turn create personalized experiences at scale.
 [(source)](https://www.voiceflow.com/glossary/conversational-artificial-intelligence-cai ':alt="Vocieflow"')
 
-### Conversational User Interface (CUI)
+#### Conversational User Interface (CUI)
 A conversational user interface are platforms that house artificial intelligence-supported voice apps, chatbots and IVRs to have verbal or written interactions with human users. The goal of CUIs? To mimic human conversation.
 [(source)](https://www.voiceflow.com/glossary/conversational-user-interface-cui ':alt="Vocieflow"')
 
-### Dialog Errors
+#### Dialog Errors
 When something unexpected happened in the conversation between Alexa and the customer. Types of dialogue errors include low confidence errors, timeouts/silence/no input, and false accepts.
 [(source)](https://www.voiceflow.com/glossary/dialog-errors ':alt="Vocieflow"')
 
-### Dialog Management
+#### Dialog Management
 A design system that offers a more flexible way to design customer-centric voice experiences. This system involves writing more scripted dialogue between the voice assistant (Ex. Alexa) and the customer so that you can take those conversations and convert them into storyboards.
 [(source)](https://www.voiceflow.com/glossary/dialog-management ':alt="Vocieflow"')
 
-### Dialogflow
+#### Dialogflow
 Dialogflow is a conversational platform that lets developers design and build Google Actions, chatbots, and conversational IVRs. Voiceflow allows your to import your projects to Dialogflow, where you can publish your Actions to Google Assistant. Unlike Voiceflow, coding is required.
 [(source)](https://www.voiceflow.com/glossary/dialogflow ':alt="Vocieflow"')
 
-### Error Message
+#### Error Message
 The message delivered to a customer when an utterance or technical error occurs during a dialog. 
 [(source)](https://www.voiceflow.com/glossary/error-message ':alt="Vocieflow"')
 
-### Exit Command
+#### Exit Command
 When the customer says a command like exit or stop to end the interaction.
 [(source)](https://www.voiceflow.com/glossary/exit-command ':alt="Vocieflow"')
 
-### Explicit Confirmation
+#### Explicit Confirmation
 A prompt that repeats back what Alexa heard and explicitly asks the customer to confirm whether they were correct. For example, "Alexa, ask Astrology Daily for my horoscope". Alexa would respond with, "You wanted a horoscope from Astrology Daily, right?" 
 
 ### False Accept Errors
@@ -157,7 +157,7 @@ With in-skill purchasing (ISP) for Alexa skills, you can make money through your
 When building Google actions, this refers to a feature that lets you assign different weights to intents for matching. If a user query can be matched to multiple intents, Dialogflow (Google's natural language understanding platform) is more likely to trigger an intent if it has a higher priority. (Source: Google design guidelines)
 [(source)](https://www.voiceflow.com/glossary/intent-priority ':alt="Vocieflow"')
 
-### Intent(s)
+####Intent(s)
 Tasks your assistant can do for you. Simply put, an intent is the user's intention in a given sentence or command. For example, if the user said "order me a large mocha coffee" the intent here would be to order coffee. An intent doesn't relate to the specific words "order" and "coffee" but rather the goal they are aiming for which is to order a coffee
 [(source)](https://www.voiceflow.com/glossary/intent-s ':alt="Vocieflow"')
 
@@ -229,7 +229,7 @@ Text that is transmitted in real-time on a device as the users speaks
 A slot that contains values that are necessary for Alexa to complete the user's request. For example, Alexa, ask Astrology Daily for the horoscope for Taurus. Without the name of the specific zodiac sign, Astrology Daily cannot provide a horoscope. If the user does not provide a value for a required slot, you must ask the user for that slot value.
 [(source)](https://www.voiceflow.com/glossary/required-slot ':alt="Vocieflow"')
 
-### Slots
+#### Slots
 In many scenarios, intents alone are not enough to fulfill a request. This is where "slots" come into play. Slots act like traditional form fields in the sense that they can be optional or required depending on what's needed to complete the request. They are variables that relate back to the intent. For example, in the sentence "order me a large mocha coffee", the words "large" and "mocha" would be classified as slots or necessary options that are needed to fulfill the ask from the users.
 [(source)](https://www.voiceflow.com/glossary/slots ':alt="Vocieflow"')
 
@@ -261,7 +261,7 @@ An SDK is a collection of software development tools in one installable package.
 The ability of an electronic device to recognize spoken words only and not the individual voice characteristics of the user
 [(source)](https://www.voiceflow.com/glossary/speech-recognition ':alt="Vocieflow"')
 
-### Speech Synthesis Markup Language (SSML)
+#### Speech Synthesis Markup Language (SSML)
 Easy-to-use visual editor to improve the speech output of voice applications (like Alexa or Google Assistant). In simple terms, SSML can help Alexa or Google sound more natural. For example, you can add longer breaks between sentences or even emphasize a certain word.
 [(source)](https://www.voiceflow.com/glossary/speech-synthesis-markup-language-ssml ':alt="Vocieflow"')
 
