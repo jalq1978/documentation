@@ -17,13 +17,13 @@
 </head>
 <body>
   <div id="app"></div>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav>
+  
   <script>
     window.$docsify = {
-     alias: {
+    loadNavbar: true,
+    loadSidebar: true,
+    autoHeader: false,
+    alias: {
        '/voiceflow-documentation/untitled/exit-block': '/blocks/exit-block',
        '/home/get-started-with-voiceflow':'/quickstart/get-started-with-voiceflow',
        '/home/what-can-i-do-with-voiceflow':'/quickstart/what-can-i-do-with-voiceflow',
@@ -47,8 +47,6 @@
     relativePath: true,
     coverpage: false,
     // coverpage: ['/', '/fr-fr/'],
-    loadSidebar: true,
-    autoHeader: false,
     mergeNavbar: true,
     subMaxLevel: 3,
     auto2top: true,
