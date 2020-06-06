@@ -6,10 +6,9 @@
 
 <b>Concepts</b>
 - [Locales](/Concepts/locales.md)
-- [Invocation and Activation](/Concepts/invocation-and-activation.md)
 - [Intents and Slots](/steps/intents-slots.md)
     
-[<b>Steps overview</b>](/steps/steps-overview.md)
+[<b>Steps</b>](/steps/steps-overview.md)
   - [Home & Start step](/steps/home-start-step.md)
   - [Interaction steps](/steps/interaction-steps.md)
   - [Logic steps](/steps/logic-steps.md)
