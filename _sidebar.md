@@ -31,4 +31,4 @@
 - [Check for a number](/tutorials/advanced-tutorials/checking-if-number.md)
 
 <b>Release notes</b>
-  - [New releases 🔥](/releases/releases.md)
+  - [New releases](/releases/releases.md)
