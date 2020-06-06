@@ -10,16 +10,7 @@ If you’re an absolute beginner looking for some help getting started, or a Voi
 <h3>Episode 1: Learning the basics </h3>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SQub8t86ZII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Find the next video of this series, and over 50 other videos on our YouTube Channel here.](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ)
-
 <br>
+
 <H2>Voiceflow Official Community Resources</h2>
 
-Get help from other Voiceflow community members and users through our community channels.
-
-- [YouTube Channel](https://www.youtube.com/channel/UCbqUIYQ7J2rS6C_nk4cNTxQ)
-- [Blog](https://voiceflow.com/blog)
-- [Events](https://voiceflow.com/events)
-- [Voiceflow User Community Facebook Group](https://www.facebook.com/groups/voiceflowgroup/)
-- [Forum](https://forum.voiceflow.com)
