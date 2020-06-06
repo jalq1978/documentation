@@ -7,23 +7,35 @@
   <meta name="description" content="Voiceflow (VF) is the central platform for designing, prototyping, and building voice apps.">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <!-- Theme: Simple -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-<link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
-<!-- <link rel="stylesheet" href="_style/nav.css"/> -->
-<!-- <link rel="stylesheet" href="_plugins/changelog/style.css"/> -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" href="_plugins/changelog/style.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,577;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <!-- Custom theme stylesheet -->
+  <link rel="stylesheet" href="_style/styles.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
+  <!-- <link rel="stylesheet" href="_plugins/changelog/style.css"/> -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="_plugins/changelog/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,577;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Custom theme styles -->
+<style>
+  html { 
+  background: url('images/bg_2.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+</style>
 </head>
 <body>
   <div id="app"></div>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav>
+  
   <script>
     window.$docsify = {
-     alias: {
+    loadNavbar: true,
+    loadSidebar: true,
+    autoHeader: false,
+    alias: {
        '/voiceflow-documentation/untitled/exit-block': '/blocks/exit-block',
        '/home/get-started-with-voiceflow':'/quickstart/get-started-with-voiceflow',
        '/home/what-can-i-do-with-voiceflow':'/quickstart/what-can-i-do-with-voiceflow',
@@ -47,9 +59,6 @@
     relativePath: true,
     coverpage: false,
     // coverpage: ['/', '/fr-fr/'],
-    loadSidebar: true,
-    autoHeader: false,
-    mergeNavbar: true,
     subMaxLevel: 3,
     auto2top: true,
     homepage: 'home.md',
@@ -98,21 +107,12 @@
       // To avoid search index collision
       // between multiple websites under the same domain
       namespace: 'voiceflow',
-    },
-    loadNavbar: true,
+    }
     //changelog : '_changelog/CHANGELOG.md'
     
   }
   </script>
-
-  <!-- Theme -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-
-  <!-- Custom theme stylesheet -->
-  <link rel="stylesheet" href="_style/styles.css">
-
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <!-- docsify-themeable (latest v0.x.x) -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
