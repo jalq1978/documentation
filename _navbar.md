@@ -1,11 +1,11 @@
 <!-- _navbar.md -->
 
-* Get started
+* Resources
 
   * [Tutorial videos](https://youtu.be/SQub8t86ZII)
   * [Community group](https://www.facebook.com/groups/voiceflowgroup/)
   * [Blog](https://www.voiceflow.com/blog)
-  * [Events](https://www.voiceflow.com/events)
+  * [Events & Meetups](https://www.voiceflow.com/events)
   * [Forum](https://www.forum.voiceflow.com)
   
 * [Pricing](https://voiceflow.com/pricing)
