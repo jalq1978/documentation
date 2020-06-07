@@ -255,14 +255,14 @@ No Reply Responses only occur twice and will exit the app if the assistant still
 
 ![img](../GIFs/Steps/interaction-steps/choice-add-noreply.gif)
 
-## **'Intent Step**
+## **Intent Step**
 <b>The Intent step, also known as jump steps, allow you to create non-linear conversation paths within your conversation. Unlike the Choice step which requires a direct link
 to activate and then branches to multiple paths, the Intent step requires no direct link and can be activated from anywhere within the project by its linked intent. Also unlike
 the choice step, the Intent step does not have multiple branching paths and only has one path connector.</b>
 
 ![img](../GIFs/Steps/interaction-steps/IntentStep-add.gif)
 
-### Linking 'intents to an 'intent step
+### Linking intents to an intent step
 Intent steps having globally available intents that are constantly listening for their linked intent to be invoked by the user. When their
 linked intent is invoked, the intent step will activate and its single conversation path will be followed. 
 
@@ -270,11 +270,11 @@ To link an intent to an Intent step, open the Intent step's editor and either se
 
 ![img](../GIFs/Steps/interaction-steps/intentStep-linking-intent.gif)
 
-### Pulling slots from an 'Intent step
+### Pulling slots from an Intent step
 Intents linked within an Intent step act like a normal intent and can thus pull slots from the user's utterance if the slots have been
 defined. 
 
-### 'Intent step context priority & sub-flows
+### Intent step context priority & sub-flows
 Intent steps follow Voiceflow's context-model which is a waterfall system where the deepest part of the conversation, either in terms of the
 number of completed conversational turns or the level of subflow, determines the priority of the Intent step invoked. The deepest, most contextually
 relevant Intent step or Command flow is always chosen. 
