@@ -6,7 +6,7 @@
   * [Community group](https://www.facebook.com/groups/voiceflowgroup/)
   * [Blog](https://www.voiceflow.com/blog)
   * [Events & Meetups](https://www.voiceflow.com/events)
-  * [Forum](https://www.forum.voiceflow.com)
+  * [Forum](https://forum.voiceflow.com/)
   
 * [Pricing](https://voiceflow.com/pricing)
   * [Enterprise](https://voiceflow.com/enterprise)
