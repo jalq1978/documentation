@@ -5,6 +5,10 @@ The Home block is the root of your project and cannot be deleted. The Home block
 
 <img src="https://i.imgur.com/J0YdL5T.png" alt="img" style="zoom:30%;" />
 
+## Useful tips
+
+- test
+
 ## Features of the Home block
 - Houses the Start step which starts a project
 - Creating Command flows
